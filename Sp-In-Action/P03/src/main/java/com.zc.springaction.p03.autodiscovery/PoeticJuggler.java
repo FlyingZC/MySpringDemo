@@ -1,0 +1,32 @@
+package com.zc.springaction.p03.autodiscovery;
+
+/**
+ * 会朗诵诗歌的杂技人
+ */
+public class PoeticJuggler extends Juggler
+{
+    private Poem poem;
+
+    public PoeticJuggler(Poem poem)
+    { 
+        // 注入Poem
+        super();
+        this.poem = poem;
+        System.out.println("PoeticJuggler一个参数的构造器");
+    }
+
+    public PoeticJuggler(int beanBags, Poem poem)
+    {
+        // 注入扔豆子个数 和 Poem
+        super(beanBags);
+        this.poem = poem;
+        System.out.println("PoeticJuggler两个参数的构造器");
+    }
+
+    public void perform() throws PerformanceException
+    {
+        super.perform();
+        System.out.println("While reciting...");
+        poem.recite();
+    }
+}

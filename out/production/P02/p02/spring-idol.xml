@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:util="http://www.springframework.org/schema/util"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd"
+       default-init-method="globalInit"
+       default-destroy-method="globalDestroy"><!--全局init和destroy方法-->
+
+    <!-- 无参构造方法创建bean. Duke选手是位杂技师(Juggler), Spring将使用默认的构造器来实例化该Bean -->
+    <bean id="duke" class="com.zc.springaction.p02.springidol.Juggler"/>
+
+    <!-- 有参构造方法创建bean. 会唱诗歌的杂技人对象.构造参数传入 扔豆子数量 和 朗诵的诗歌 -->
+    <bean id="poeticDuke" class="com.zc.springaction.p02.springidol.PoeticJuggler">
+        <constructor-arg value="15"/>
+        <!-- 使用ref指向引用类型的bean -->
+        <constructor-arg ref="sonnet29"/>
+    </bean>
+    <!-- 诗歌bean -->
+    <bean id="sonnet29" class="com.zc.springaction.p02.springidol.Sonnet29"/>
+
+    <!--
+           工厂方法创建bean. factory-method属性允许我们调用一个指定的静态方法,从而代替构造方法来创建一个类的实例.
+           该配置会调用 Stage.getInstance()创建对象
+     -->
+    <bean id="theStage" class="com.zc.springaction.p02.springidol.Stage"
+          factory-method="getInstance"></bean>
+
+    <!-- scope="prototype",门票bean. 为该Bean声明作用域为prototype,则spring在每次请求时都会为该Bean产生一个新的实例 -->
+    <bean id="ticket" class="com.zc.springaction.p02.springidol.Ticket"
+          scope="prototype"></bean>
+
+    <!--
+         使用init-method和destroy-method.表演大厅在开始要开灯,结束后要关灯.
+         auditorium Bean实例化后立即调用turnOnLights(),
+         在该Bean从容器移除和销毁前,调turnOffLights()
+    -->
+    <bean id="auditorium" class="com.zc.springaction.p02.springidol.Auditorium"
+          init-method="turnOnLights" destroy-method="turnOffLights"></bean>
+
+    <!-- bean的属性注入: setter注入 -->
+    <bean id="kenny" class="com.zc.springaction.p02.springidol.Instrumentalist">
+        <!-- 注入简单值,Spring调用song属性对应的setter方法为该属性注入值 -->
+        <property name="song" value="Jingle Bells"/>
+    </bean>
+
+    <!-- 乐器 -->
+    <bean id="saxophone" class="com.zc.springaction.p02.springidol.Saxophone"/>
+    <bean id="piano" class="com.zc.springaction.p02.springidol.Piano"></bean>
+
+    <!-- bean的属性注入: setter注入 -->
+    <bean id="kenny2" class="com.zc.springaction.p02.springidol.Instrumentalist">
+        <property name="song" value="Jingle Bells"/>
+        <!-- 注入 引用类型对象 -->
+        <property name="instrument" ref="saxophone"/>
+    </bean>
+
+    <bean id="kenny3" class="com.zc.springaction.p02.springidol.Instrumentalist">
+        <property name="song" value="Jingle Bells"/>
+        <property name="instrument">
+            <!-- 内部bean.好处是在外出无法共享使用该bean.内部bean同样再使用构造器注入或setter注入 -->
+            <bean class="com.zc.springaction.p02.springidol.Saxophone"></bean>
+        </property>
+    </bean>
+
+    <bean id="duke2" class="com.zc.springaction.p02.springidol.PoeticJuggler">
+        <constructor-arg value="15"/>
+        <constructor-arg>
+            <!-- 内部bean同样可以装配到构造器的入参中.在外部无法应用该内部bean(不能被复用) -->
+            <bean class="com.zc.springaction.p02.springidol.Sonnet29"></bean>
+        </constructor-arg>
+    </bean>
+
+    <!-- 使用p名称空间装配属性,引用类型属性需要加-ref -->
+    <bean id="kenny4" class="com.zc.springaction.p02.springidol.Instrumentalist"
+          p:song="MySong" p:instrument-ref="saxophone">
+    </bean>
+
+    <!-- 装配集合.属性是用private Collection<Instrument> instruments;声明的,但是可用list配置 -->
+    <bean id="hank" class="com.zc.springaction.p02.springidol.OneManBand">
+        <property name="instruments">
+            <list>
+                <ref bean="saxophone"></ref>
+                <ref bean="piano"></ref>
+            </list>
+        </property>
+    </bean>
+
+    <!-- 使用map -->
+    <bean id="hank2" class="com.zc.springaction.p02.springidol.OneManBand2">
+        <property name="instruments">
+            <map>
+                <entry key="SAXOPHONE" value-ref="saxophone"></entry>
+                <entry key="PIANO" value-ref="piano"></entry>
+            </map>
+        </property>
+    </bean>
+
+    <!-- 使用properties配置 -->
+    <bean id="hank3" class="com.zc.springaction.p02.springidol.OneManBand3">
+        <!-- 属性 private Properties instruments;-->
+        <property name="instruments">
+            <!-- java.util.properties -->
+            <props>
+                <prop key="Guitar">strum strum strum</prop>
+                <prop key="Cymbal">crash crash crash</prop>
+                <prop key="Harmonica">Hum Hum Hum</prop>
+                <!-- 使用<null/>装配空值 -->
+                <prop key="TestNull">
+                    <!--<null/>-->
+                </prop>
+            </props>
+        </property>
+    </bean>
+
+    <bean id="carl" class="com.zc.springaction.p02.springidol.Instrumentalist">
+        <!-- SpEL表达式,通过ID引用bean或bean中的属性,比如此处引用kenny对象中的song属性 -->
+        <property name="song" value="#{kenny.song}"/>
+    </bean>
+
+    <bean id="songSelector" class="com.zc.springaction.p02.springidol.SongSelector"></bean>
+
+    <bean id="carl2" class="com.zc.springaction.p02.springidol.Instrumentalist">
+        <!-- 使用SpEL表达式,调用songSelector对象中的selectSong()方法 -->
+        <property name="song" value="#{songSelector.selectSong().toUpperCase()}"/>
+        <property name="instrument" ref="piano"></property>
+    </bean>
+    <bean id="carl3" class="com.zc.springaction.p02.springidol.Instrumentalist">
+        <!-- 使用SpEL表达式,使用?.可避免空指针异常,若前面返回null,SpEL不再尝试调用后面的方法 -->
+        <property name="song" value="#{songSelector.selectSong()?.toUpperCase()}"/>
+        <property name="instrument" ref="piano"></property>
+    </bean>
+
+    <!-- 使用util:list创建集合 -->
+    <util:list id="cities">
+        <bean class="com.zc.springaction.p02.springidol.City">
+            <property name="name" value="Hubei"/>
+            <property name="state" value="Wuhan"/>
+            <property name="population" value="2323232"/>
+        </bean>
+        <bean class="com.zc.springaction.p02.springidol.City">
+            <property name="name" value="Shanxi"/>
+            <property name="state" value="Xian"/>
+            <property name="population" value="44444"/>
+        </bean>
+        <bean class="com.zc.springaction.p02.springidol.City" p:name="zz"
+              p:state="ok" p:population="1111">
+        </bean>
+        <bean class="com.zc.springaction.p02.springidol.City" p:name="za"
+              p:state="okk" p:population="2222">
+        </bean>
+        <bean class="com.zc.springaction.p02.springidol.City" p:name="zb"
+              p:state="okkk" p:population="3333">
+        </bean>
+    </util:list>
+
+
+    <!-- 	<bean id="stan" class="com.zc.springaction.p02.springidol.Instrumentalist">
+            <property name="song" value="#{systemProperties.STANS_SONG}" />
+        </bean> -->
+
+    <util:list id="songList">
+        <bean class="com.zc.springaction.p02.springidol.Song">
+            <constructor-arg value="That Old Black Magic"/>
+            <constructor-arg value="Arlen and Mercer"/>
+            <constructor-arg value="That old black magic has me in its spell..."/>
+        </bean>
+        <bean class="com.zc.springaction.p02.springidol.Song">
+            <constructor-arg value="Every Little Thing She Does is Magic"/>
+            <constructor-arg value="Sting"/>
+            <constructor-arg value="Though Ive tried before to tell her..."/>
+        </bean>
+        <bean class="com.zc.springaction.p02.springidol.Song">
+            <constructor-arg value="Magic Carpet Ride"/>
+            <constructor-arg value="Moreve and Kay"/>
+            <constructor-arg
+                    value="I like to dream yes, yes, right between my sound machine..."/>
+        </bean>
+    </util:list>
+
+    <!-- 把songList集合中所有title提取出来 -->
+    <bean id="magicSongBook" class="com.zc.springaction.p02.springidol.SongBook">
+        <constructor-arg value="#{songList.![title]}"/>
+    </bean>
+
+    <bean id="ricky" class="com.zc.springaction.p02.springidol.Instrumentalist">
+        <property name="song" value="#{magicSongBook.pickASong()}"/>
+    </bean>
+</beans>

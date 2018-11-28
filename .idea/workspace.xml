@@ -1,0 +1,1430 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="edb91961-16fd-40a4-9bd8-9f2e5437159a" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/sp01-base/target/" />
+    <ignored path="$PROJECT_DIR$/Sp-In-Action/P01/target/" />
+    <ignored path="$PROJECT_DIR$/Sp-In-Action/target/" />
+    <ignored path="$PROJECT_DIR$/Sp-In-Action/P02/target/" />
+    <ignored path="$PROJECT_DIR$/Sp-In-Action/P03/target/" />
+    <ignored path="$PROJECT_DIR$/Sp-Note/target/" />
+    <ignored path="$PROJECT_DIR$/Sp-In-Action/P04/target/" />
+    <ignored path="$PROJECT_DIR$/sp02-mvc/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sp02-mvc/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BraveKnightTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Sp-In-Action/P01/src/test/java/knights/BraveKnightTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="7" column="34" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BeanFactoryTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Sp-In-Action/P01/src/test/java/knights/BeanFactoryTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="T03RequestMapping.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sp02-mvc/src/main/java/com/zc/controller/T03RequestMapping.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-570">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="T07RequestParam.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sp02-mvc/src/main/java/com/zc/controller/T07RequestParam.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="22" column="131" selection-start-line="22" selection-start-column="74" selection-end-line="22" selection-end-column="131" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="readme.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/readme.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="95">
+                <caret line="5" selection-start-line="5" selection-end-line="5" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="knights.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Sp-In-Action/P01/src/main/resources/knights/knights.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Mockito.java" pinned="false" current-in-tab="false">
+        <entry file="jar://G:/MyMavenRepository/org/mockito/mockito-all/1.9.5/mockito-all-1.9.5-sources.jar!/org/mockito/Mockito.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="103">
+              <caret line="1118" column="24" selection-start-line="1118" selection-start-column="24" selection-end-line="1118" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>instrument</find>
+      <find>carl2</find>
+      <find>piano</find>
+      <find>BASE_RES_DIR</find>
+      <find>sonnet29</find>
+      <find>kenny2</find>
+      <find>-2</find>
+      <find>useClassProxyingIfNecessary</find>
+      <find>if (this.nonAdvisedBeans.contains(cacheKey))</find>
+      <find>public void doWith(Method method) throws</find>
+      <find>Metadata().isLazilyInstantiated()) {</find>
+      <find>public InstantiationModelAwarePointcutAdvisorImpl(</find>
+      <find>public Advice getAdvice</find>
+      <find>switch (aspectJAnnotation.getAnnotationType()) {</find>
+      <find>private Advisor getDeclareParentsAdvisor(Field introductionField</find>
+      <find>protected Object createProxy</find>
+      <find>public Advisor wrap(Object adviceObject) throws UnknownAdviceTypeException</find>
+      <find>return getAopProxyFactory().createAopProxy(this);</find>
+      <find>public List&lt;Advisor&gt; buildAspectJAdvisors()</find>
+      <find>public InstantiationModelAwarePointcutAdvisorImpl(AspectJAdvisorFactory af, Asp</find>
+      <find>private Advice instantiateAdvice(AspectJExpressionPointcut pcut) {</find>
+      <find>protected List&lt;Advisor&gt; findAdvisorsThatCanApply</find>
+      <find>protected Object createProxy(</find>
+      <find>public Object getProxy(ClassLoader classLoader) {</find>
+      <find>Object proxy = createProxy(bean.getClass(), beanName, specificInterceptors, new SingletonTargetSource(bean));</find>
+      <find>return createAopProxy().getProxy(classLoader);</find>
+      <find>myTestBean</find>
+    </findStrings>
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$/../../00opendemo/HystrixDemo-master" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../01opensource/Hystrix-master" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../01opensource/spring-master" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../workspace7-opensource/spring-framework-4.2.0" value="PREVIEW" />
+        <entry key="D:/workspace7-yuan/spring-framework-3.2.8.RELEASE" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/sp01-base/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/Sp-In-Action/P01/src/main/java/knights/Quest.java" />
+        <option value="$PROJECT_DIR$/Sp-In-Action/P01/src/test/java/knights/BraveKnightTest.java" />
+        <option value="$PROJECT_DIR$/Sp-In-Action/P01/src/test/java/knights/T01Knight.java" />
+        <option value="$PROJECT_DIR$/Sp-In-Action/P01/src/test/java/knights/T02KnightAop.java" />
+        <option value="$PROJECT_DIR$/Sp-In-Action/pom.xml" />
+        <option value="$PROJECT_DIR$/Sp-In-Action/P02/src/test/java/com/zc/springaction/p02/T01RehearsalMain.java" />
+        <option value="$PROJECT_DIR$/Sp-In-Action/P03/src/test/java/com.zc.springaction.p03.autodiscovery/TestConstants.java" />
+        <option value="$PROJECT_DIR$/Sp-In-Action/P03/src/test/java/com.zc.springaction.p03.autodiscovery/T01Autowire2.java" />
+        <option value="$PROJECT_DIR$/Sp-In-Action/P03/src/test/java/com.zc.springaction.p03.autodiscovery/T01Autowire.java" />
+        <option value="$PROJECT_DIR$/Sp-In-Action/P03/src/main/java/com.zc.springaction.p03.autodiscovery/SpringIdolConfig.java" />
+        <option value="$PROJECT_DIR$/Sp-In-Action/P03/src/test/java/com.zc.springaction.p03.autodiscovery/T02AutowiredAnno.java" />
+        <option value="$PROJECT_DIR$/Sp-In-Action/P01/src/main/resources/knights/knights.xml" />
+        <option value="$PROJECT_DIR$/Sp-In-Action/P01/src/main/resources/knights/knights-aop.xml" />
+        <option value="$PROJECT_DIR$/Sp-In-Action/P01/src/main/java/knights/BraveKnight.java" />
+        <option value="$PROJECT_DIR$/Sp-In-Action/P01/src/main/java/knights/SlayDragonQuest.java" />
+        <option value="$PROJECT_DIR$/Sp-In-Action/P01/src/main/java/knights/DamselRescuingKnight.java" />
+        <option value="$PROJECT_DIR$/Sp-In-Action/P02/src/main/resources/p02/spring-idol.xml" />
+        <option value="$PROJECT_DIR$/Sp-In-Action/P02/src/main/resources/p02/springidol-context-2.xml" />
+        <option value="$PROJECT_DIR$/Sp-In-Action/P02/src/test/java/com.zc.springaction.p02.springidol/T01RehearsalMain.java" />
+        <option value="$PROJECT_DIR$/Sp-Note/note_spring-in-action.txt" />
+        <option value="$PROJECT_DIR$/Sp-In-Action/P03/src/main/resources/p03/spring01-autowire.xml" />
+        <option value="$PROJECT_DIR$/Sp-In-Action/P03/src/main/resources/p03/spring01-autowire2-byType.xml" />
+        <option value="$PROJECT_DIR$/Sp-In-Action/P04/src/main/java/com/zc/TestBean.java" />
+        <option value="$PROJECT_DIR$/Sp-In-Action/P04/src/test/java/com/zc/T01AOP.java" />
+        <option value="$PROJECT_DIR$/Sp-In-Action/P04/src/main/resources/applicationContext-1.xml" />
+        <option value="$PROJECT_DIR$/Sp-In-Action/P04/src/main/java/com/zc/AspectJTest.java" />
+        <option value="D:/workspace7-yuan/spring-framework-3.2.8.RELEASE/spring-aop/src/main/java/org/springframework/aop/config/AopConfigUtils.java" />
+        <option value="D:/workspace7-yuan/spring-framework-3.2.8.RELEASE/spring-aop/src/main/java/org/springframework/aop/config/AopNamespaceUtils.java" />
+        <option value="D:/workspace7-yuan/spring-framework-3.2.8.RELEASE/spring-aop/src/main/java/org/springframework/aop/aspectj/annotation/AnnotationAwareAspectJAutoProxyCreator.java" />
+        <option value="D:/workspace7-yuan/spring-framework-3.2.8.RELEASE/spring-aop/src/main/java/org/springframework/aop/aspectj/annotation/AbstractAspectJAdvisorFactory.java" />
+        <option value="D:/workspace7-yuan/spring-framework-3.2.8.RELEASE/spring-aop/src/main/java/org/springframework/aop/framework/adapter/MethodBeforeAdviceInterceptor.java" />
+        <option value="D:/workspace7-yuan/spring-framework-3.2.8.RELEASE/spring-aop/src/main/java/org/springframework/aop/aspectj/AbstractAspectJAdvice.java" />
+        <option value="D:/workspace7-yuan/spring-framework-3.2.8.RELEASE/spring-aop/src/main/java/org/springframework/aop/aspectj/AspectJAfterAdvice.java" />
+        <option value="D:/workspace7-yuan/spring-framework-3.2.8.RELEASE/spring-aop/src/main/java/org/springframework/aop/support/AopUtils.java" />
+        <option value="D:/workspace7-yuan/spring-framework-3.2.8.RELEASE/spring-aop/src/main/java/org/springframework/aop/framework/adapter/DefaultAdvisorAdapterRegistry.java" />
+        <option value="D:/workspace7-yuan/spring-framework-3.2.8.RELEASE/spring-aop/src/main/java/org/springframework/aop/framework/ProxyCreatorSupport.java" />
+        <option value="D:/workspace7-yuan/spring-framework-3.2.8.RELEASE/spring-aop/src/main/java/org/springframework/aop/framework/autoproxy/AbstractAutoProxyCreator.java" />
+        <option value="D:/workspace7-yuan/spring-framework-3.2.8.RELEASE/spring-aop/src/main/java/org/springframework/aop/aspectj/annotation/BeanFactoryAspectJAdvisorsBuilder.java" />
+        <option value="D:/workspace7-yuan/spring-framework-3.2.8.RELEASE/spring-aop/src/main/java/org/springframework/aop/aspectj/annotation/InstantiationModelAwarePointcutAdvisorImpl.java" />
+        <option value="D:/workspace7-yuan/spring-framework-3.2.8.RELEASE/spring-aop/src/main/java/org/springframework/aop/aspectj/annotation/ReflectiveAspectJAdvisorFactory.java" />
+        <option value="D:/workspace7-yuan/spring-framework-3.2.8.RELEASE/spring-aop/src/main/java/org/springframework/aop/framework/autoproxy/AbstractAdvisorAutoProxyCreator.java" />
+        <option value="$PROJECT_DIR$/sp02-mvc/pom.xml" />
+        <option value="$PROJECT_DIR$/Sp-In-Action/P01/src/test/java/knights/BeanFactoryTest.java" />
+        <option value="$PROJECT_DIR$/readme.md" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="E:/Java/apache-maven-3.3.9" />
+        <option name="userSettingsFile" value="E:\Java\apache-maven-3.3.9\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="MySpringDemo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="MySpringDemo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="sp02-mvc" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="sp02-mvc" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="5" />
+    <option name="y" value="283" />
+    <option name="width" value="1386" />
+    <option name="height" value="745" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="MySpringDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MySpringDemo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MySpringDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MySpringDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="sp02-mvc" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="BeanFactoryTest&#9;PSI&#9;JAVA://knights.BeanFactoryTest&#10;BraveKnightTest&#9;PSI&#9;JAVA://knights.BraveKnightTest&#10;AbstractAutoProxyCreator&#9;FILE&#9;file://D:/workspace7-yuan/spring-framework-3.2.8.RELEASE/spring-aop/src/main/java/org/springframework/aop/framework/autoproxy/AbstractAutoProxyCreator.java&#10;SyntheticInstantiationAdvisor&#9;PSI&#9;JAVA://org.springframework.aop.aspectj.annotation.ReflectiveAspectJAdvisorFactory.SyntheticInstantiationAdvisor&#10;AspectJAfterAdvice&#9;PSI&#9;JAVA://org.springframework.aop.aspectj.AspectJAfterAdvice&#10;MethodBeforeAdviceInterceptor&#9;PSI&#9;JAVA://org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor&#10;AnnotationAwareAspectJAutoProxyCreator&#9;FILE&#9;file://D:/workspace7-yuan/spring-framework-3.2.8.RELEASE/spring-aop/src/main/java/org/springframework/aop/aspectj/annotation/AnnotationAwareAspectJAutoProxyCreator.java&#10;AwareAspectJAutoProxyCreator&#9;PSI&#9;JAVA://org.springframework.aop.aspectj.annotation.AnnotationAwareAspectJAutoProxyCreator&#10;AopNamespaceHandler&#9;PSI&#9;JAVA://org.springframework.aop.config.AopNamespaceHandler&#10;SpringIdolConfig&#9;PSI&#9;JAVA://com.zc.springaction.p03.autodiscovery.SpringIdolConfig" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/sp02-mvc/target/sp02-mvc-1.0-SNAPSHOT.war" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.30240175" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\myworkspace\workspace1-my\MySpringDemo\Sp-In-Action\P03\src\test\java" />
+      <recent name="D:\myworkspace\workspace1-my\MySpringDemo\Sp-In-Action\P02\src\test\java" />
+      <recent name="D:\myworkspace\workspace1-my\MySpringDemo\Sp-Note" />
+      <recent name="D:\myworkspace\workspace1-my\MySpringDemo\Sp-In-Action\P03\src\main\resources" />
+      <recent name="D:\myworkspace\workspace1-my\MySpringDemo\Sp-In-Action\P02\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.sp-mvc01">
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="BeanFactoryTest.testSimpleLoad" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="P01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="knights.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="knights" />
+      <option name="MAIN_CLASS_NAME" value="knights.BeanFactoryTest" />
+      <option name="METHOD_NAME" value="testSimpleLoad" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="T01AOP.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="P04" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.zc" />
+      <option name="MAIN_CLASS_NAME" value="com.zc.T01AOP" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="T01Autowire2.test0" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="P03" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zc.springaction.p03.autodiscovery.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.zc.springaction.p03.autodiscovery" />
+      <option name="MAIN_CLASS_NAME" value="com.zc.springaction.p03.autodiscovery.T01Autowire2" />
+      <option name="METHOD_NAME" value="test0" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="T01Autowire.test0" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="P03" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zc.springaction.p03.autodiscovery.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.zc.springaction.p03.autodiscovery" />
+      <option name="MAIN_CLASS_NAME" value="com.zc.springaction.p03.autodiscovery.T01Autowire" />
+      <option name="METHOD_NAME" value="test0" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="T01RehearsalMain" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="P02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zc.springaction.p02.springidol.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.zc.springaction.p02.springidol" />
+      <option name="MAIN_CLASS_NAME" value="com.zc.springaction.p02.springidol.T01RehearsalMain" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment />
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_MySpringDemo" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="3718" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+    </configuration>
+    <configuration name="sp-mvc01" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.82" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8090/" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <file path="$PROJECT_DIR$/sp02-mvc/target/sp02-mvc-1.0-SNAPSHOT.war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </file>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_MySpringDemo" />
+        <option name="HTTP_PORT" value="8090" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="3718" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+    </configuration>
+    <list>
+      <item itemvalue="Tomcat Server.sp-mvc01" />
+      <item itemvalue="JUnit.T01RehearsalMain" />
+      <item itemvalue="JUnit.T01Autowire.test0" />
+      <item itemvalue="JUnit.T01Autowire2.test0" />
+      <item itemvalue="JUnit.T01AOP.test01" />
+      <item itemvalue="JUnit.BeanFactoryTest.testSimpleLoad" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.BeanFactoryTest.testSimpleLoad" />
+        <item itemvalue="JUnit.T01AOP.test01" />
+        <item itemvalue="JUnit.T01Autowire2.test0" />
+        <item itemvalue="JUnit.T01Autowire.test0" />
+        <item itemvalue="JUnit.T01RehearsalMain" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="edb91961-16fd-40a4-9bd8-9f2e5437159a" name="Default" comment="" />
+      <created>1540387945669</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1540387945669</updated>
+      <workItem from="1540387949025" duration="5536000" />
+      <workItem from="1540555555080" duration="591000" />
+      <workItem from="1540608041604" duration="5505000" />
+      <workItem from="1540816908359" duration="3649000" />
+      <workItem from="1540908401878" duration="2902000" />
+      <workItem from="1541075278932" duration="4987000" />
+      <workItem from="1541298146602" duration="9749000" />
+      <workItem from="1541421678304" duration="598000" />
+      <workItem from="1541511379352" duration="595000" />
+      <workItem from="1541680288679" duration="592000" />
+      <workItem from="1542202942354" duration="626000" />
+      <workItem from="1542632820362" duration="1469000" />
+      <workItem from="1543317387007" duration="3366000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="T01AOP_test01 - 2018.10.29 at 21h 09m 49s.xml">
+      <configuration name="T01AOP.test01" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="T01AOP_test01 - 2018.10.29 at 21h 18m 58s.xml">
+      <configuration name="T01AOP.test01" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="T01AOP_test01 - 2018.10.29 at 21h 48m 20s.xml">
+      <configuration name="T01AOP.test01" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="T01AOP_test01 - 2018.11.04 at 12h 59m 16s.xml">
+      <configuration name="T01AOP.test01" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="T01AOP_test01 - 2018.11.04 at 13h 06m 09s.xml">
+      <configuration name="T01AOP.test01" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="T01AOP_test01 - 2018.11.04 at 13h 06m 20s.xml">
+      <configuration name="T01AOP.test01" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="T01AOP_test01 - 2018.11.04 at 13h 06m 44s.xml">
+      <configuration name="T01AOP.test01" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="T01AOP_test01 - 2018.11.04 at 13h 18m 25s.xml">
+      <configuration name="T01AOP.test01" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="T01AOP_test01 - 2018.11.04 at 13h 51m 30s.xml">
+      <configuration name="T01AOP.test01" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BeanFactoryTest_testSimpleLoad - 2018.11.27 at 21h 35m 41s.xml">
+      <configuration name="BeanFactoryTest.testSimpleLoad" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="40165000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50073206" side_tool="true" weight="0.28502417" />
+      <window_info anchor="bottom" id="Application Servers" weight="0.21256039" />
+      <window_info anchor="right" id="Maven Projects" order="7" weight="0.1727672" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49926794" weight="0.42028984" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32850242" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info id="Image Layers" order="6" />
+      <window_info anchor="bottom" id="Java Enterprise" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49853587" weight="0.38486314" />
+      <window_info anchor="bottom" id="Spring" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22254759" />
+      <window_info id="Web" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info active="true" anchor="right" content_ui="combo" id="Hierarchy" order="2" visible="true" weight="0.24963397" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint type="java-line">
+          <url>jar://G:/MyMavenRepository/org/springframework/spring-beans/3.2.8.RELEASE/spring-beans-3.2.8.RELEASE-sources.jar!/org/springframework/beans/factory/xml/XmlBeanDefinitionReader.java</url>
+          <line>395</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/Sp-In-Action/P02/src/test/java/com.zc.springaction.p02.springidol/T01RehearsalMain.java</url>
+          <line>21</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/Sp-In-Action/P02/src/test/java/com.zc.springaction.p02.springidol/T01RehearsalMain.java</url>
+          <line>20</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/Sp-In-Action/P04/src/test/java/com/zc/T01AOP.java</url>
+          <line>9</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://G:/MyMavenRepository/org/springframework/spring-aop/3.2.8.RELEASE/spring-aop-3.2.8.RELEASE-sources.jar!/org/springframework/aop/config/AopNamespaceHandler.java</url>
+          <line>63</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://D:/workspace7-yuan/spring-framework-3.2.8.RELEASE/spring-aop/src/main/java/org/springframework/aop/config/AspectJAutoProxyBeanDefinitionParser.java</url>
+          <line>40</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://D:/workspace7-yuan/spring-framework-3.2.8.RELEASE/spring-aop/src/main/java/org/springframework/aop/framework/autoproxy/AbstractAdvisorAutoProxyCreator.java</url>
+          <line>68</line>
+          <properties />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://D:/workspace7-yuan/spring-framework-3.2.8.RELEASE/spring-aop/src/main/java/org/springframework/aop/aspectj/annotation/AnnotationAwareAspectJAutoProxyCreator.java</url>
+          <line>83</line>
+          <properties />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://D:/workspace7-yuan/spring-framework-3.2.8.RELEASE/spring-aop/src/main/java/org/springframework/aop/aspectj/annotation/ReflectiveAspectJAdvisorFactory.java</url>
+          <line>93</line>
+          <properties />
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://D:/workspace7-yuan/spring-framework-3.2.8.RELEASE/spring-aop/src/main/java/org/springframework/aop/aspectj/annotation/ReflectiveAspectJAdvisorFactory.java</url>
+          <line>181</line>
+          <properties />
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://D:/workspace7-yuan/spring-framework-3.2.8.RELEASE/spring-aop/src/main/java/org/springframework/aop/aspectj/annotation/InstantiationModelAwarePointcutAdvisorImpl.java</url>
+          <line>68</line>
+          <properties />
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://D:/workspace7-yuan/spring-framework-3.2.8.RELEASE/spring-aop/src/main/java/org/springframework/aop/aspectj/annotation/InstantiationModelAwarePointcutAdvisorImpl.java</url>
+          <line>189</line>
+          <properties />
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://D:/workspace7-yuan/spring-framework-3.2.8.RELEASE/spring-aop/src/main/java/org/springframework/aop/aspectj/annotation/InstantiationModelAwarePointcutAdvisorImpl.java</url>
+          <line>182</line>
+          <properties />
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://D:/workspace7-yuan/spring-framework-3.2.8.RELEASE/spring-aop/src/main/java/org/springframework/aop/framework/adapter/MethodBeforeAdviceInterceptor.java</url>
+          <line>49</line>
+          <properties />
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://D:/workspace7-yuan/spring-framework-3.2.8.RELEASE/spring-aop/src/main/java/org/springframework/aop/aspectj/AspectJMethodBeforeAdvice.java</url>
+          <line>38</line>
+          <properties />
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://D:/workspace7-yuan/spring-framework-3.2.8.RELEASE/spring-aop/src/main/java/org/springframework/aop/aspectj/AspectJAfterAdvice.java</url>
+          <line>41</line>
+          <properties />
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://D:/workspace7-yuan/spring-framework-3.2.8.RELEASE/spring-aop/src/main/java/org/springframework/aop/aspectj/annotation/ReflectiveAspectJAdvisorFactory.java</url>
+          <line>273</line>
+          <properties />
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://D:/workspace7-yuan/spring-framework-3.2.8.RELEASE/spring-aop/src/main/java/org/springframework/aop/aspectj/annotation/ReflectiveAspectJAdvisorFactory.java</url>
+          <line>149</line>
+          <properties />
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://D:/workspace7-yuan/spring-framework-3.2.8.RELEASE/spring-aop/src/main/java/org/springframework/aop/framework/autoproxy/AbstractAdvisorAutoProxyCreator.java</url>
+          <line>115</line>
+          <properties />
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://D:/workspace7-yuan/spring-framework-3.2.8.RELEASE/spring-aop/src/main/java/org/springframework/aop/support/AopUtils.java</url>
+          <line>278</line>
+          <properties />
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://D:/workspace7-yuan/spring-framework-3.2.8.RELEASE/spring-aop/src/main/java/org/springframework/aop/framework/autoproxy/AbstractAutoProxyCreator.java</url>
+          <line>450</line>
+          <properties />
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://D:/workspace7-yuan/spring-framework-3.2.8.RELEASE/spring-aop/src/main/java/org/springframework/aop/framework/autoproxy/AbstractAutoProxyCreator.java</url>
+          <line>520</line>
+          <properties />
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://D:/workspace7-yuan/spring-framework-3.2.8.RELEASE/spring-aop/src/main/java/org/springframework/aop/framework/adapter/DefaultAdvisorAdapterRegistry.java</url>
+          <line>56</line>
+          <properties />
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://D:/workspace7-yuan/spring-framework-3.2.8.RELEASE/spring-aop/src/main/java/org/springframework/aop/framework/ProxyCreatorSupport.java</url>
+          <line>104</line>
+          <properties />
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://D:/workspace7-yuan/spring-framework-3.2.8.RELEASE/spring-aop/src/main/java/org/springframework/aop/framework/DefaultAopProxyFactory.java</url>
+          <line>52</line>
+          <properties />
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://D:/workspace7-yuan/spring-framework-3.2.8.RELEASE/spring-aop/src/main/java/org/springframework/aop/framework/autoproxy/AbstractAutoProxyCreator.java</url>
+          <line>318</line>
+          <properties />
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://D:/workspace7-yuan/spring-framework-3.2.8.RELEASE/spring-aop/src/main/java/org/springframework/aop/framework/autoproxy/AbstractAutoProxyCreator.java</url>
+          <line>358</line>
+          <properties />
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://D:/workspace7-yuan/spring-framework-3.2.8.RELEASE/spring-aop/src/main/java/org/springframework/aop/framework/autoproxy/AbstractAutoProxyCreator.java</url>
+          <line>346</line>
+          <properties />
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://D:/workspace7-yuan/spring-framework-3.2.8.RELEASE/spring-aop/src/main/java/org/springframework/aop/aspectj/annotation/BeanFactoryAspectJAdvisorsBuilder.java</url>
+          <line>84</line>
+          <properties />
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://D:/workspace7-yuan/spring-framework-3.2.8.RELEASE/spring-aop/src/main/java/org/springframework/aop/aspectj/annotation/AnnotationAwareAspectJAutoProxyCreator.java</url>
+          <line>86</line>
+          <properties />
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://D:/workspace7-yuan/spring-framework-3.2.8.RELEASE/spring-aop/src/main/java/org/springframework/aop/aspectj/annotation/BeanFactoryAspectJAdvisorsBuilder.java</url>
+          <line>108</line>
+          <properties />
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://D:/workspace7-yuan/spring-framework-3.2.8.RELEASE/spring-aop/src/main/java/org/springframework/aop/aspectj/annotation/ReflectiveAspectJAdvisorFactory.java</url>
+          <line>176</line>
+          <properties />
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://D:/workspace7-yuan/spring-framework-3.2.8.RELEASE/spring-aop/src/main/java/org/springframework/aop/aspectj/annotation/InstantiationModelAwarePointcutAdvisorImpl.java</url>
+          <line>139</line>
+          <properties />
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://D:/workspace7-yuan/spring-framework-3.2.8.RELEASE/spring-aop/src/main/java/org/springframework/aop/aspectj/annotation/ReflectiveAspectJAdvisorFactory.java</url>
+          <line>196</line>
+          <properties />
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://D:/workspace7-yuan/spring-framework-3.2.8.RELEASE/spring-aop/src/main/java/org/springframework/aop/framework/autoproxy/AbstractAutoProxyCreator.java</url>
+          <line>543</line>
+          <properties />
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint type="java-method">
+          <url>file://D:/workspace7-yuan/spring-framework-3.2.8.RELEASE/spring-aop/src/main/java/org/springframework/aop/aspectj/annotation/ReflectiveAspectJAdvisorFactory.java</url>
+          <line>130</line>
+          <properties method="doWith">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="47" />
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>encodedResource.getResource().getInputStream()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>encodedResource.getResource()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Sp-In-Action/P04/src/main/resources/applicationContext-1.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://G:/MyMavenRepository/org/springframework/spring-beans/3.2.8.RELEASE/spring-beans-3.2.8.RELEASE-sources.jar!/org/springframework/beans/factory/xml/XmlBeanDefinitionReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="333" column="8" lean-forward="true" selection-start-line="333" selection-start-column="8" selection-end-line="333" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://G:/MyMavenRepository/org/springframework/spring-aop/3.2.8.RELEASE/spring-aop-3.2.8.RELEASE-sources.jar!/org/springframework/aop/config/AopNamespaceHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="67" column="49" lean-forward="true" selection-start-line="67" selection-start-column="49" selection-end-line="67" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/workspace7-yuan/spring-framework-3.2.8.RELEASE/spring-aop/src/main/java/org/springframework/aop/config/ConfigBeanDefinitionParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="64" column="42" lean-forward="true" selection-start-line="64" selection-start-column="42" selection-end-line="64" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/workspace7-yuan/spring-framework-3.2.8.RELEASE/spring-aop/src/main/java/org/springframework/aop/aspectj/AspectJPointcutAdvisor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://G:/MyMavenRepository/org/springframework/spring-aop/3.2.8.RELEASE/spring-aop-3.2.8.RELEASE.jar!/org/springframework/aop/aspectj/annotation/ReflectiveAspectJAdvisorFactory.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://D:/workspace7-yuan/spring-framework-3.2.8.RELEASE/spring-aop/src/main/java/org/springframework/aop/framework/adapter/MethodBeforeAdviceInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="49" column="24" selection-start-line="49" selection-start-column="24" selection-end-line="49" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/workspace7-yuan/spring-framework-3.2.8.RELEASE/spring-aop/src/main/java/org/springframework/aop/aspectj/AspectJMethodBeforeAdvice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="38" column="22" lean-forward="true" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/workspace7-yuan/spring-framework-3.2.8.RELEASE/spring-aop/src/main/java/org/springframework/aop/aspectj/AbstractAspectJAdvice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="613" column="35" lean-forward="true" selection-start-line="613" selection-start-column="35" selection-end-line="613" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/workspace7-yuan/spring-framework-3.2.8.RELEASE/spring-aop/src/main/java/org/springframework/aop/aspectj/AspectJAfterAdvice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/workspace7-yuan/spring-framework-3.2.8.RELEASE/spring-aop/src/main/java/org/springframework/aop/framework/JdkDynamicAopProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1596">
+          <caret line="115" column="9" selection-start-line="115" selection-start-column="9" selection-end-line="115" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/workspace7-yuan/spring-framework-3.2.8.RELEASE/spring-aop/src/main/java/org/springframework/aop/framework/DefaultAopProxyFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="51" column="20" selection-start-line="51" selection-start-column="20" selection-end-line="51" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://G:/MyMavenRepository/commons-logging/commons-logging/1.2/commons-logging-1.2-sources.jar!/org/apache/commons/logging/LogFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="654" selection-start-line="654" selection-end-line="654" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/Java/jdk1.6.0_37/src.zip!/java/util/HashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="371" selection-start-line="371" selection-end-line="371" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/workspace7-yuan/spring-framework-3.2.8.RELEASE/spring-beans/src/main/java/org/springframework/beans/factory/xml/NamespaceHandlerSupport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="132" selection-start-line="132" selection-end-line="132" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/workspace7-yuan/spring-framework-3.2.8.RELEASE/spring-aop/src/main/java/org/springframework/aop/config/AopNamespaceHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="69" selection-start-line="69" selection-end-line="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/workspace7-yuan/spring-framework-3.2.8.RELEASE/spring-beans/src/main/java/org/springframework/beans/factory/xml/DefaultNamespaceHandlerResolver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="131" selection-start-line="131" selection-end-line="131" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/workspace7-yuan/spring-framework-3.2.8.RELEASE/spring-beans/src/main/java/org/springframework/beans/factory/xml/BeanDefinitionParserDelegate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="1432" selection-start-line="1432" selection-end-line="1432" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/workspace7-yuan/spring-framework-3.2.8.RELEASE/spring-aop/src/main/java/org/springframework/aop/config/AspectJAutoProxyBeanDefinitionParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="42" column="20" lean-forward="true" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sp-In-Action/P04/src/main/java/com/zc/AspectJTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sp-In-Action/P04/src/main/java/com/zc/TestBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/workspace7-yuan/spring-framework-3.2.8.RELEASE/spring-core/src/main/java/org/springframework/core/Ordered.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="41" column="8" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/workspace7-yuan/spring-framework-3.2.8.RELEASE/spring-beans/src/main/java/org/springframework/beans/factory/support/DefaultListableBeanFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="638" column="16" selection-start-line="638" selection-start-column="16" selection-end-line="638" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/workspace7-yuan/spring-framework-3.2.8.RELEASE/spring-aop/src/main/java/org/springframework/aop/config/AopConfigUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="49">
+          <caret line="85" column="84" lean-forward="true" selection-start-line="85" selection-start-column="84" selection-end-line="85" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/workspace7-yuan/spring-framework-3.2.8.RELEASE/spring-beans/src/main/java/org/springframework/beans/factory/xml/ParserContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="68" selection-start-line="68" selection-end-line="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/workspace7-yuan/spring-framework-3.2.8.RELEASE/spring-aop/src/main/java/org/springframework/aop/config/AopNamespaceUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="116" column="52" lean-forward="true" selection-start-line="116" selection-start-column="52" selection-end-line="116" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/workspace7-yuan/spring-framework-3.2.8.RELEASE/spring-aop/src/main/java/org/springframework/aop/aspectj/annotation/AbstractAspectJAdvisorFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="85" selection-start-line="85" selection-end-line="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sp-In-Action/P04/src/test/java/com/zc/T01AOP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/workspace7-yuan/spring-framework-3.2.8.RELEASE/spring-aop/src/main/java/org/springframework/aop/framework/autoproxy/BeanFactoryAdvisorRetrievalHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="78" selection-start-line="78" selection-end-line="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/workspace7-yuan/spring-framework-3.2.8.RELEASE/spring-aop/src/main/java/org/springframework/aop/aspectj/annotation/AspectJAdvisorFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="69" column="18" selection-start-line="69" selection-start-column="18" selection-end-line="69" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/workspace7-yuan/spring-framework-3.2.8.RELEASE/spring-aop/src/main/java/org/springframework/aop/aspectj/autoproxy/AspectJAwareAdvisorAutoProxyCreator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="108" column="13" lean-forward="true" selection-start-line="108" selection-start-column="13" selection-end-line="108" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/workspace7-yuan/spring-framework-3.2.8.RELEASE/spring-aop/src/test/java/org/springframework/aop/aspectj/annotation/AspectJPointcutAdvisorTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="43" column="58" selection-start-line="43" selection-start-column="58" selection-end-line="43" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/workspace7-yuan/spring-framework-3.2.8.RELEASE/spring-aop/src/main/java/org/springframework/aop/aspectj/annotation/AnnotationAwareAspectJAutoProxyCreator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="86" column="58" lean-forward="true" selection-start-line="86" selection-start-column="58" selection-end-line="86" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/workspace7-yuan/spring-framework-3.2.8.RELEASE/spring-aop/src/main/java/org/springframework/aop/aspectj/annotation/InstantiationModelAwarePointcutAdvisorImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2014">
+          <caret line="139" column="49" selection-start-line="139" selection-start-column="49" selection-end-line="139" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/workspace7-yuan/spring-framework-3.2.8.RELEASE/spring-aop/src/main/java/org/springframework/aop/aspectj/annotation/ReflectiveAspectJAdvisorFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2755">
+          <caret line="196" column="50" selection-start-line="196" selection-start-column="50" selection-end-line="196" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/workspace7-yuan/spring-framework-3.2.8.RELEASE/spring-aop/src/main/java/org/springframework/aop/framework/autoproxy/AbstractAdvisorAutoProxyCreator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1786">
+          <caret line="117" column="42" selection-start-line="117" selection-start-column="42" selection-end-line="117" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/workspace7-yuan/spring-framework-3.2.8.RELEASE/spring-aop/src/main/java/org/springframework/aop/framework/adapter/DefaultAdvisorAdapterRegistry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="969">
+          <caret line="73" column="53" selection-start-line="73" selection-start-column="53" selection-end-line="73" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/workspace7-yuan/spring-framework-3.2.8.RELEASE/spring-aop/src/main/java/org/springframework/aop/support/AopUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4066">
+          <caret line="262" column="9" selection-start-line="262" selection-start-column="9" selection-end-line="262" selection-end-column="9" />
+          <folding>
+            <element signature="e#9172#9173#0" expanded="true" />
+            <element signature="e#9223#9224#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/workspace7-yuan/spring-framework-3.2.8.RELEASE/spring-aop/src/main/java/org/springframework/aop/aspectj/annotation/BeanFactoryAspectJAdvisorsBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1577">
+          <caret line="108" column="85" selection-start-line="108" selection-start-column="85" selection-end-line="108" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/workspace7-yuan/spring-framework-3.2.8.RELEASE/spring-aop/src/main/java/org/springframework/aop/framework/CglibAopProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1919">
+          <caret line="149" column="26" selection-start-line="149" selection-start-column="18" selection-end-line="149" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/workspace7-yuan/spring-framework-3.2.8.RELEASE/spring-aop/src/main/java/org/springframework/aop/framework/autoproxy/AbstractAutoProxyCreator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7486">
+          <caret line="459" column="68" selection-start-line="459" selection-start-column="16" selection-end-line="459" selection-end-column="68" />
+          <folding>
+            <element signature="e#12953#12954#0" expanded="true" />
+            <element signature="e#13003#13004#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/workspace7-yuan/spring-framework-3.2.8.RELEASE/spring-aop/src/main/java/org/springframework/aop/framework/ProxyCreatorSupport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1501">
+          <caret line="100" column="42" selection-start-line="100" selection-start-column="42" selection-end-line="100" selection-end-column="42" />
+          <folding>
+            <element signature="e#2255#2256#0" expanded="true" />
+            <element signature="e#2289#2290#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/workspace7-yuan/spring-framework-3.2.8.RELEASE/spring-aop/src/main/java/org/springframework/aop/framework/ProxyFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="110" column="23" selection-start-line="110" selection-start-column="23" selection-end-line="110" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sp02-mvc/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://G:/MyMavenRepository/org/mockito/mockito-all/1.9.5/mockito-all-1.9.5-sources.jar!/org/mockito/Mockito.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="1118" column="24" selection-start-line="1118" selection-start-column="24" selection-end-line="1118" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sp-In-Action/P01/src/test/java/knights/BraveKnightTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="7" column="34" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sp-In-Action/P01/src/main/resources/knights/knights.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sp-In-Action/P01/src/test/java/knights/BeanFactoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sp02-mvc/src/main/java/com/zc/controller/T03RequestMapping.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-570">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sp02-mvc/src/main/java/com/zc/controller/T07RequestParam.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="22" column="131" selection-start-line="22" selection-start-column="74" selection-end-line="22" selection-end-column="131" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="95">
+            <caret line="5" selection-start-line="5" selection-end-line="5" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.30240175" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.6</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.30240175" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web|sp02mvc</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.30240175" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: org.springframework:spring-orm:3.2.8.RELEASE</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.30240175" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

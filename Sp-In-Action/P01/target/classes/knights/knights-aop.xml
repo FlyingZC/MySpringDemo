@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+		http://www.springframework.org/schema/aop 
+    http://www.springframework.org/schema/aop/spring-aop-3.0.xsd">
+
+    <bean id="knight" class="knights.BraveKnight">
+        <constructor-arg ref="quest"/>
+    </bean>
+
+    <bean id="quest" class="knights.SlayDragonQuest"/>
+
+    <!-- 吟游诗人 切面bean -->
+    <bean id="minstrel" class="knights.Minstrel"/>
+
+    <aop:config>
+        <!-- 将吟游诗人(Minstrel)抽象为一个切面,引用配置的minstrel切面bean  -->
+        <aop:aspect ref="minstrel">
+            <!-- 定义切入点,  expression属性选择所应用的通知 -->
+            <aop:pointcut id="embark" expression="execution(* *.embarkOnQuest(..))"/>
+            <!-- 声明前置通知 -->
+            <aop:before pointcut-ref="embark" method="singBeforeQuest"/>
+            <!-- 声明后置通知 -->
+            <aop:after pointcut-ref="embark" method="singAfterQuest"/>
+
+        </aop:aspect>
+    </aop:config>
+</beans>
