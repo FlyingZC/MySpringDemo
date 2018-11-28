@@ -1,7 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="sp0201mvc01:war exploded" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="edb91961-16fd-40a4-9bd8-9f2e5437159a" name="Default" comment="" />
+    <list default="true" id="edb91961-16fd-40a4-9bd8-9f2e5437159a" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/sp0201mvc01_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/sp02mvc_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sp02-mvc/sp0201-mvc01/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sp02-mvc/sp0201-mvc01/sp0201mvc01.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sp02-mvc/sp0201-mvc01/src/main/java/com.zc/controller/BmiController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sp02-mvc/sp0201-mvc01/src/main/java/com.zc/controller/BookController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sp02-mvc/sp0201-mvc01/src/main/java/com.zc/controller/DiguaHandlerMapping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sp02-mvc/sp0201-mvc01/src/main/java/com.zc/controller/FollowMeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sp02-mvc/sp0201-mvc01/src/main/java/com.zc/controller/GoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sp02-mvc/sp0201-mvc01/src/main/java/com.zc/controller/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sp02-mvc/sp0201-mvc01/src/main/java/com.zc/controller/ServletRequestHandledEventListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sp02-mvc/sp0201-mvc01/src/main/java/com.zc/controller/UserValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sp02-mvc/sp0201-mvc01/src/main/java/com.zc/controller/ValidateController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sp02-mvc/sp0201-mvc01/src/main/java/com.zc/entity/AdminParam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sp02-mvc/sp0201-mvc01/src/main/java/com.zc/entity/Bmi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sp02-mvc/sp0201-mvc01/src/main/java/com.zc/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sp02-mvc/sp0201-mvc01/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sp02-mvc/sp0201-mvc01/src/main/resources/note注解方式springmvc.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sp02-mvc/sp0201-mvc01/src/main/resources/spring-mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sp02-mvc/sp0201-mvc01/src/test/java/com.zc.test/T01BeanWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sp02-mvc/sp0201-mvc01/web/WEB-INF/article.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sp02-mvc/sp0201-mvc01/web/WEB-INF/bmi.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sp02-mvc/sp0201-mvc01/web/WEB-INF/hello.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sp02-mvc/sp0201-mvc01/web/WEB-INF/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sp02-mvc/sp0201-mvc01/web/WEB-INF/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sp02-mvc/sp0201-mvc01/web/WEB-INF/view.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sp02-mvc/sp0201-mvc01/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sp02-mvc/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sp02-mvc/pom.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/sp01-base/target/" />
@@ -12,6 +51,7 @@
     <ignored path="$PROJECT_DIR$/Sp-Note/target/" />
     <ignored path="$PROJECT_DIR$/Sp-In-Action/P04/target/" />
     <ignored path="$PROJECT_DIR$/sp02-mvc/target/" />
+    <ignored path="$PROJECT_DIR$/sp02-mvc/sp0201-mvc01/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,81 +60,98 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sp02-mvc/pom.xml">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="DispatcherServlet.java" pinned="false" current-in-tab="false">
+        <entry file="jar://G:/MyMavenRepository/org/springframework/spring-webmvc/4.1.5.RELEASE/spring-webmvc-4.1.5.RELEASE-sources.jar!/org/springframework/web/servlet/DispatcherServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+            <state relative-caret-position="76">
+              <caret line="140" column="55" selection-start-line="140" selection-start-column="39" selection-end-line="140" selection-end-column="55" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BraveKnightTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Sp-In-Action/P01/src/test/java/knights/BraveKnightTest.java">
+      <file leaf-file-name="HttpServletBean.java" pinned="false" current-in-tab="false">
+        <entry file="jar://G:/MyMavenRepository/org/springframework/spring-webmvc/4.1.5.RELEASE/spring-webmvc-4.1.5.RELEASE-sources.jar!/org/springframework/web/servlet/HttpServletBean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="7" column="34" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="41" />
+            <state relative-caret-position="33">
+              <caret line="257" lean-forward="true" selection-start-line="257" selection-end-line="257" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FrameworkServlet.java" pinned="false" current-in-tab="false">
+        <entry file="jar://G:/MyMavenRepository/org/springframework/spring-webmvc/4.1.5.RELEASE/spring-webmvc-4.1.5.RELEASE-sources.jar!/org/springframework/web/servlet/FrameworkServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="91">
+              <caret line="949" lean-forward="true" selection-start-line="949" selection-end-line="949" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CoyoteAdapter.java" pinned="false" current-in-tab="false">
+        <entry file="jar://G:/MyMavenRepository/org/apache/tomcat/tomcat-catalina/7.0.82/tomcat-catalina-7.0.82-sources.jar!/org/apache/catalina/connector/CoyoteAdapter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="59">
+              <caret line="444" column="22" selection-start-line="444" selection-start-column="22" selection-end-line="444" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ApplicationFilterChain.java" pinned="false" current-in-tab="true">
+        <entry file="jar://G:/MyMavenRepository/org/apache/tomcat/tomcat-catalina/7.0.82/tomcat-catalina-7.0.82-sources.jar!/org/apache/catalina/core/ApplicationFilterChain.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="336" lean-forward="true" selection-start-line="336" selection-end-line="336" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DefaultServlet.java" pinned="false" current-in-tab="false">
+        <entry file="jar://G:/MyMavenRepository/org/apache/tomcat/tomcat-catalina/7.0.82/tomcat-catalina-7.0.82-sources.jar!/org/apache/catalina/servlets/DefaultServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="205">
+              <caret line="434" selection-start-line="434" selection-end-line="434" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RequestFacade.java" pinned="false" current-in-tab="false">
+        <entry file="jar://G:/MyMavenRepository/org/apache/tomcat/tomcat-catalina/7.0.82/tomcat-catalina-7.0.82-sources.jar!/org/apache/catalina/connector/RequestFacade.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="205">
+              <caret line="748" selection-start-line="748" selection-end-line="748" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Request.java" pinned="false" current-in-tab="false">
+        <entry file="jar://G:/MyMavenRepository/org/apache/tomcat/tomcat-catalina/7.0.82/tomcat-catalina-7.0.82-sources.jar!/org/apache/catalina/connector/Request.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="77">
+              <caret line="2260" selection-start-line="2260" selection-end-line="2260" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#17631#17632#0" expanded="true" />
+                <element signature="e#17665#17666#0" expanded="true" />
+                <element signature="e#62700#62701#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BeanFactoryTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Sp-In-Action/P01/src/test/java/knights/BeanFactoryTest.java">
+      <file leaf-file-name="HttpServlet.java" pinned="false" current-in-tab="false">
+        <entry file="jar://G:/MyMavenRepository/javax/servlet/javax.servlet-api/3.0.1/javax.servlet-api-3.0.1-sources.jar!/javax/servlet/http/HttpServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+            <state relative-caret-position="216">
+              <caret line="733" column="7" lean-forward="true" selection-start-line="733" selection-start-column="7" selection-end-line="733" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="T03RequestMapping.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sp02-mvc/src/main/java/com/zc/controller/T03RequestMapping.java">
+      <file leaf-file-name="GenericServlet.java" pinned="false" current-in-tab="false">
+        <entry file="jar://G:/MyMavenRepository/javax/servlet/javax.servlet-api/3.0.1/javax.servlet-api-3.0.1-sources.jar!/javax/servlet/GenericServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-570">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="T07RequestParam.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sp02-mvc/src/main/java/com/zc/controller/T07RequestParam.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="22" column="131" selection-start-line="22" selection-start-column="74" selection-end-line="22" selection-end-column="131" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="readme.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/readme.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="95">
-                <caret line="5" selection-start-line="5" selection-end-line="5" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="knights.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Sp-In-Action/P01/src/main/resources/knights/knights.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Mockito.java" pinned="false" current-in-tab="false">
-        <entry file="jar://G:/MyMavenRepository/org/mockito/mockito-all/1.9.5/mockito-all-1.9.5-sources.jar!/org/mockito/Mockito.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="103">
-              <caret line="1118" column="24" selection-start-line="1118" selection-start-column="24" selection-end-line="1118" selection-end-column="24" />
+            <state relative-caret-position="-387">
+              <caret line="90" column="22" selection-start-line="90" selection-start-column="22" selection-end-line="90" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -110,8 +167,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>instrument</find>
-      <find>carl2</find>
       <find>piano</find>
       <find>BASE_RES_DIR</find>
       <find>sonnet29</find>
@@ -137,7 +192,15 @@
       <find>Object proxy = createProxy(bean.getClass(), beanName, specificInterceptors, new SingletonTargetSource(bean));</find>
       <find>return createAopProxy().getProxy(classLoader);</find>
       <find>myTestBean</find>
+      <find>log4j</find>
+      <find>first</find>
+      <find>.invoke</find>
+      <find>servlet.s</find>
+      <find>tomcat</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="projectSyncType">
@@ -199,6 +262,10 @@
         <option value="$PROJECT_DIR$/sp02-mvc/pom.xml" />
         <option value="$PROJECT_DIR$/Sp-In-Action/P01/src/test/java/knights/BeanFactoryTest.java" />
         <option value="$PROJECT_DIR$/readme.md" />
+        <option value="$PROJECT_DIR$/sp02-mvc/sp0201-mvc01/src/main/java/com.zc/controller/ValidateController.java" />
+        <option value="$PROJECT_DIR$/sp02-mvc/sp0201-mvc01/src/main/resources/spring-mvc.xml" />
+        <option value="$PROJECT_DIR$/sp02-mvc/sp0201-mvc01/src/main/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/sp02-mvc/sp0201-mvc01/pom.xml" />
       </list>
     </option>
   </component>
@@ -257,6 +324,9 @@
     <option name="width" value="1386" />
     <option name="height" value="745" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -264,6 +334,7 @@
     <panes>
       <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -276,32 +347,80 @@
               <item name="MySpringDemo" type="462c0819:PsiDirectoryNode" />
               <item name="sp02-mvc" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="MySpringDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MySpringDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="sp02-mvc" type="462c0819:PsiDirectoryNode" />
+              <item name="sp0201-mvc01" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MySpringDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MySpringDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="sp02-mvc" type="462c0819:PsiDirectoryNode" />
+              <item name="sp0201-mvc01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MySpringDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MySpringDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="sp02-mvc" type="462c0819:PsiDirectoryNode" />
+              <item name="sp0201-mvc01" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MySpringDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MySpringDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="sp02-mvc" type="462c0819:PsiDirectoryNode" />
+              <item name="sp0201-mvc01" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MySpringDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MySpringDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="sp02-mvc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MySpringDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MySpringDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="sp02-mvc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MySpringDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MySpringDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="sp02-mvc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="BeanFactoryTest&#9;PSI&#9;JAVA://knights.BeanFactoryTest&#10;BraveKnightTest&#9;PSI&#9;JAVA://knights.BraveKnightTest&#10;AbstractAutoProxyCreator&#9;FILE&#9;file://D:/workspace7-yuan/spring-framework-3.2.8.RELEASE/spring-aop/src/main/java/org/springframework/aop/framework/autoproxy/AbstractAutoProxyCreator.java&#10;SyntheticInstantiationAdvisor&#9;PSI&#9;JAVA://org.springframework.aop.aspectj.annotation.ReflectiveAspectJAdvisorFactory.SyntheticInstantiationAdvisor&#10;AspectJAfterAdvice&#9;PSI&#9;JAVA://org.springframework.aop.aspectj.AspectJAfterAdvice&#10;MethodBeforeAdviceInterceptor&#9;PSI&#9;JAVA://org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor&#10;AnnotationAwareAspectJAutoProxyCreator&#9;FILE&#9;file://D:/workspace7-yuan/spring-framework-3.2.8.RELEASE/spring-aop/src/main/java/org/springframework/aop/aspectj/annotation/AnnotationAwareAspectJAutoProxyCreator.java&#10;AwareAspectJAutoProxyCreator&#9;PSI&#9;JAVA://org.springframework.aop.aspectj.annotation.AnnotationAwareAspectJAutoProxyCreator&#10;AopNamespaceHandler&#9;PSI&#9;JAVA://org.springframework.aop.config.AopNamespaceHandler&#10;SpringIdolConfig&#9;PSI&#9;JAVA://com.zc.springaction.p03.autodiscovery.SpringIdolConfig" />
+    <property name="SearchEverywhereHistoryKey" value="ApplicationFilterChain&#9;PSI&#9;JAVA://org.apache.catalina.core.ApplicationFilterChain&#10;disp&#9;FILE&#9;jar://G:/MyMavenRepository/org/springframework/spring-webmvc/4.1.5.RELEASE/spring-webmvc-4.1.5.RELEASE-sources.jar!/org/springframework/web/servlet/DispatcherServlet.java&#10;coy A&#9;PSI&#9;JAVA://org.apache.catalina.connector.CoyoteAdapter&#10;coy&#9;FILE&#9;jar://G:/MyMavenRepository/org/apache/tomcat/tomcat-catalina/7.0.82/tomcat-catalina-7.0.82-sources.jar!/org/apache/catalina/connector/CoyoteAdapter.java&#10;coy adapter&#9;PSI&#9;JAVA://org.apache.catalina.connector.CoyoteAdapter&#10;dispatcherservlet&#9;PSI&#9;JAVA://org.springframework.web.servlet.DispatcherServlet&#10;BeanFactoryTest&#9;PSI&#9;JAVA://knights.BeanFactoryTest&#10;BraveKnightTest&#9;PSI&#9;JAVA://knights.BraveKnightTest&#10;AbstractAutoProxyCreator&#9;FILE&#9;file://D:/workspace7-yuan/spring-framework-3.2.8.RELEASE/spring-aop/src/main/java/org/springframework/aop/framework/autoproxy/AbstractAutoProxyCreator.java&#10;SyntheticInstantiationAdvisor&#9;PSI&#9;JAVA://org.springframework.aop.aspectj.annotation.ReflectiveAspectJAdvisorFactory.SyntheticInstantiationAdvisor&#10;AspectJAfterAdvice&#9;PSI&#9;JAVA://org.springframework.aop.aspectj.AspectJAfterAdvice&#10;MethodBeforeAdviceInterceptor&#9;PSI&#9;JAVA://org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor&#10;AnnotationAwareAspectJAutoProxyCreator&#9;FILE&#9;file://D:/workspace7-yuan/spring-framework-3.2.8.RELEASE/spring-aop/src/main/java/org/springframework/aop/aspectj/annotation/AnnotationAwareAspectJAutoProxyCreator.java&#10;AwareAspectJAutoProxyCreator&#9;PSI&#9;JAVA://org.springframework.aop.aspectj.annotation.AnnotationAwareAspectJAutoProxyCreator&#10;AopNamespaceHandler&#9;PSI&#9;JAVA://org.springframework.aop.config.AopNamespaceHandler&#10;SpringIdolConfig&#9;PSI&#9;JAVA://com.zc.springaction.p03.autodiscovery.SpringIdolConfig" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/sp02-mvc/target/sp02-mvc-1.0-SNAPSHOT.war" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.30240175" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\myworkspace\workspace1-my\MySpringDemo\sp02-mvc\sp0201-mvc01\web\WEB-INF" />
+      <recent name="D:\myworkspace\workspace1-my\MySpringDemo\sp02-mvc\sp0201-mvc01\src\main\resources" />
+      <recent name="D:\myworkspace\workspace1-my\MySpringDemo\sp02-mvc\sp0201-mvc01\src\test\java" />
+      <recent name="D:\myworkspace\workspace1-my\MySpringDemo\sp02-mvc\sp0201-mvc01\src\main\java" />
       <recent name="D:\myworkspace\workspace1-my\MySpringDemo\Sp-In-Action\P03\src\test\java" />
-      <recent name="D:\myworkspace\workspace1-my\MySpringDemo\Sp-In-Action\P02\src\test\java" />
-      <recent name="D:\myworkspace\workspace1-my\MySpringDemo\Sp-Note" />
-      <recent name="D:\myworkspace\workspace1-my\MySpringDemo\Sp-In-Action\P03\src\main\resources" />
-      <recent name="D:\myworkspace\workspace1-my\MySpringDemo\Sp-In-Action\P02\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -316,7 +435,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.sp-mvc01">
+  <component name="RunManager" selected="Tomcat Server.sp-mvc02">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -533,7 +652,6 @@
       </ConfigurationWrapper>
     </configuration>
     <configuration name="sp-mvc01" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.82" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8090/" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <file path="$PROJECT_DIR$/sp02-mvc/target/sp02-mvc-1.0-SNAPSHOT.war">
@@ -545,6 +663,7 @@
       <server-settings>
         <option name="BASE_DIRECTORY_NAME" value="Unnamed_MySpringDemo" />
         <option name="HTTP_PORT" value="8090" />
+        <option name="JNDI_PORT" value="10999" />
       </server-settings>
       <predefined_log_file id="Tomcat" enabled="true" />
       <predefined_log_file id="Tomcat Catalina" enabled="true" />
@@ -600,8 +719,83 @@
         </SHUTDOWN>
       </ConfigurationWrapper>
     </configuration>
+    <configuration name="sp-mvc02" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.82" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER" value="false" />
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8280/" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="sp0201mvc01:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_MySpringDemo_2" />
+        <option name="HTTP_PORT" value="8280" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="3718" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="sp0201mvc01:war exploded" />
+        </option>
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Tomcat Server.sp-mvc01" />
+      <item itemvalue="Tomcat Server.sp-mvc02" />
       <item itemvalue="JUnit.T01RehearsalMain" />
       <item itemvalue="JUnit.T01Autowire.test0" />
       <item itemvalue="JUnit.T01Autowire2.test0" />
@@ -641,6 +835,7 @@
       <workItem from="1542202942354" duration="626000" />
       <workItem from="1542632820362" duration="1469000" />
       <workItem from="1543317387007" duration="3366000" />
+      <workItem from="1543410202903" duration="6020000" />
     </task>
     <servers />
   </component>
@@ -677,44 +872,81 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40165000" />
+    <option name="totallyTimeSpent" value="46185000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50073206" side_tool="true" weight="0.28502417" />
-      <window_info anchor="bottom" id="Application Servers" weight="0.21256039" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5014641" side_tool="true" weight="0.56935483" />
+      <window_info anchor="bottom" id="Application Servers" order="11" weight="0.21256039" />
       <window_info anchor="right" id="Maven Projects" order="7" weight="0.1727672" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Designer" order="2" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24963397" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49926794" weight="0.42028984" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49853587" weight="0.38709676" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32850242" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49926794" weight="0.32419354" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info id="Image Layers" order="6" />
-      <window_info anchor="bottom" id="Java Enterprise" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49853587" weight="0.38486314" />
       <window_info anchor="bottom" id="Spring" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22254759" />
-      <window_info id="Web" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22254759" />
+      <window_info anchor="right" id="Bean Validation" />
+      <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info active="true" anchor="right" content_ui="combo" id="Hierarchy" order="2" visible="true" weight="0.24963397" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="bottom" id="Application Servers" order="11" weight="0.21256039" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49853587" weight="0.38486314" />
+      <window_info anchor="bottom" id="Spring" order="8" />
+      <window_info id="Image Layers" order="7" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5014641" side_tool="true" weight="0.41935483" />
+      <window_info anchor="bottom" id="Messages" order="14" sideWeight="0.49926794" weight="0.32741934" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info active="true" anchor="right" content_ui="combo" id="Hierarchy" order="3" visible="true" weight="0.24963397" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.1727672" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22254759" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info id="Web" order="3" side_tool="true" />
+      <window_info anchor="right" id="Palette&#9;" order="9" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49853587" visible="true" weight="0.0" />
+      <window_info anchor="right" id="Bean Validation" order="0" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -935,6 +1167,66 @@
           <properties />
           <option name="timeStamp" value="46" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sp02-mvc/sp0201-mvc01/src/main/java/com.zc/controller/UserValidator.java</url>
+          <line>19</line>
+          <properties />
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://G:/MyMavenRepository/org/springframework/spring-webmvc/4.1.5.RELEASE/spring-webmvc-4.1.5.RELEASE-sources.jar!/org/springframework/web/servlet/DispatcherServlet.java</url>
+          <line>900</line>
+          <properties />
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://G:/MyMavenRepository/org/apache/tomcat/tomcat-catalina/7.0.82/tomcat-catalina-7.0.82-sources.jar!/org/apache/catalina/connector/CoyoteAdapter.java</url>
+          <line>211</line>
+          <properties />
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://G:/MyMavenRepository/org/apache/tomcat/tomcat-catalina/7.0.82/tomcat-catalina-7.0.82-sources.jar!/org/apache/catalina/connector/CoyoteAdapter.java</url>
+          <line>444</line>
+          <properties />
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://G:/MyMavenRepository/org/apache/tomcat/tomcat-catalina/7.0.82/tomcat-catalina-7.0.82-sources.jar!/org/apache/catalina/connector/CoyoteAdapter.java</url>
+          <line>305</line>
+          <properties />
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://G:/MyMavenRepository/org/apache/tomcat/tomcat-catalina/7.0.82/tomcat-catalina-7.0.82-sources.jar!/org/apache/catalina/connector/CoyoteAdapter.java</url>
+          <line>309</line>
+          <properties />
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://G:/MyMavenRepository/org/springframework/spring-webmvc/4.1.5.RELEASE/spring-webmvc-4.1.5.RELEASE-sources.jar!/org/springframework/web/servlet/FrameworkServlet.java</url>
+          <line>950</line>
+          <properties />
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://G:/MyMavenRepository/org/apache/tomcat/tomcat-catalina/7.0.82/tomcat-catalina-7.0.82-sources.jar!/org/apache/catalina/core/ApplicationFilterChain.java</url>
+          <line>216</line>
+          <properties />
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://G:/MyMavenRepository/org/apache/tomcat/tomcat-catalina/7.0.82/tomcat-catalina-7.0.82-sources.jar!/org/apache/catalina/core/ApplicationFilterChain.java</url>
+          <line>302</line>
+          <properties />
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://G:/MyMavenRepository/org/apache/tomcat/tomcat-catalina/7.0.82/tomcat-catalina-7.0.82-sources.jar!/org/apache/catalina/core/ApplicationFilterChain.java</url>
+          <line>305</line>
+          <properties />
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
         <line-breakpoint type="java-method">
           <url>file://D:/workspace7-yuan/spring-framework-3.2.8.RELEASE/spring-aop/src/main/java/org/springframework/aop/aspectj/annotation/ReflectiveAspectJAdvisorFactory.java</url>
           <line>130</line>
@@ -947,11 +1239,16 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="47" />
+      <option name="time" value="62" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>req.getDispatcherType()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>encodedResource.getResource().getInputStream()</expression-string>
         <language-id>JAVA</language-id>
@@ -965,282 +1262,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Sp-In-Action/P04/src/main/resources/applicationContext-1.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://G:/MyMavenRepository/org/springframework/spring-beans/3.2.8.RELEASE/spring-beans-3.2.8.RELEASE-sources.jar!/org/springframework/beans/factory/xml/XmlBeanDefinitionReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="333" column="8" lean-forward="true" selection-start-line="333" selection-start-column="8" selection-end-line="333" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://G:/MyMavenRepository/org/springframework/spring-aop/3.2.8.RELEASE/spring-aop-3.2.8.RELEASE-sources.jar!/org/springframework/aop/config/AopNamespaceHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="67" column="49" lean-forward="true" selection-start-line="67" selection-start-column="49" selection-end-line="67" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/workspace7-yuan/spring-framework-3.2.8.RELEASE/spring-aop/src/main/java/org/springframework/aop/config/ConfigBeanDefinitionParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="64" column="42" lean-forward="true" selection-start-line="64" selection-start-column="42" selection-end-line="64" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/workspace7-yuan/spring-framework-3.2.8.RELEASE/spring-aop/src/main/java/org/springframework/aop/aspectj/AspectJPointcutAdvisor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://G:/MyMavenRepository/org/springframework/spring-aop/3.2.8.RELEASE/spring-aop-3.2.8.RELEASE.jar!/org/springframework/aop/aspectj/annotation/ReflectiveAspectJAdvisorFactory.class">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://D:/workspace7-yuan/spring-framework-3.2.8.RELEASE/spring-aop/src/main/java/org/springframework/aop/framework/adapter/MethodBeforeAdviceInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="49" column="24" selection-start-line="49" selection-start-column="24" selection-end-line="49" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/workspace7-yuan/spring-framework-3.2.8.RELEASE/spring-aop/src/main/java/org/springframework/aop/aspectj/AspectJMethodBeforeAdvice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="38" column="22" lean-forward="true" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/workspace7-yuan/spring-framework-3.2.8.RELEASE/spring-aop/src/main/java/org/springframework/aop/aspectj/AbstractAspectJAdvice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="613" column="35" lean-forward="true" selection-start-line="613" selection-start-column="35" selection-end-line="613" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/workspace7-yuan/spring-framework-3.2.8.RELEASE/spring-aop/src/main/java/org/springframework/aop/aspectj/AspectJAfterAdvice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/workspace7-yuan/spring-framework-3.2.8.RELEASE/spring-aop/src/main/java/org/springframework/aop/framework/JdkDynamicAopProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1596">
-          <caret line="115" column="9" selection-start-line="115" selection-start-column="9" selection-end-line="115" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/workspace7-yuan/spring-framework-3.2.8.RELEASE/spring-aop/src/main/java/org/springframework/aop/framework/DefaultAopProxyFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="51" column="20" selection-start-line="51" selection-start-column="20" selection-end-line="51" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://G:/MyMavenRepository/commons-logging/commons-logging/1.2/commons-logging-1.2-sources.jar!/org/apache/commons/logging/LogFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="654" selection-start-line="654" selection-end-line="654" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/Java/jdk1.6.0_37/src.zip!/java/util/HashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="371" selection-start-line="371" selection-end-line="371" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/workspace7-yuan/spring-framework-3.2.8.RELEASE/spring-beans/src/main/java/org/springframework/beans/factory/xml/NamespaceHandlerSupport.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="132" selection-start-line="132" selection-end-line="132" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/workspace7-yuan/spring-framework-3.2.8.RELEASE/spring-aop/src/main/java/org/springframework/aop/config/AopNamespaceHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="69" selection-start-line="69" selection-end-line="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/workspace7-yuan/spring-framework-3.2.8.RELEASE/spring-beans/src/main/java/org/springframework/beans/factory/xml/DefaultNamespaceHandlerResolver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="131" selection-start-line="131" selection-end-line="131" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/workspace7-yuan/spring-framework-3.2.8.RELEASE/spring-beans/src/main/java/org/springframework/beans/factory/xml/BeanDefinitionParserDelegate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="1432" selection-start-line="1432" selection-end-line="1432" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/workspace7-yuan/spring-framework-3.2.8.RELEASE/spring-aop/src/main/java/org/springframework/aop/config/AspectJAutoProxyBeanDefinitionParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="42" column="20" lean-forward="true" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sp-In-Action/P04/src/main/java/com/zc/AspectJTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sp-In-Action/P04/src/main/java/com/zc/TestBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/workspace7-yuan/spring-framework-3.2.8.RELEASE/spring-core/src/main/java/org/springframework/core/Ordered.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="41" column="8" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/workspace7-yuan/spring-framework-3.2.8.RELEASE/spring-beans/src/main/java/org/springframework/beans/factory/support/DefaultListableBeanFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="638" column="16" selection-start-line="638" selection-start-column="16" selection-end-line="638" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/workspace7-yuan/spring-framework-3.2.8.RELEASE/spring-aop/src/main/java/org/springframework/aop/config/AopConfigUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="49">
-          <caret line="85" column="84" lean-forward="true" selection-start-line="85" selection-start-column="84" selection-end-line="85" selection-end-column="84" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/workspace7-yuan/spring-framework-3.2.8.RELEASE/spring-beans/src/main/java/org/springframework/beans/factory/xml/ParserContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="68" selection-start-line="68" selection-end-line="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/workspace7-yuan/spring-framework-3.2.8.RELEASE/spring-aop/src/main/java/org/springframework/aop/config/AopNamespaceUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="116" column="52" lean-forward="true" selection-start-line="116" selection-start-column="52" selection-end-line="116" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/workspace7-yuan/spring-framework-3.2.8.RELEASE/spring-aop/src/main/java/org/springframework/aop/aspectj/annotation/AbstractAspectJAdvisorFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="85" selection-start-line="85" selection-end-line="85" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sp-In-Action/P04/src/test/java/com/zc/T01AOP.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/workspace7-yuan/spring-framework-3.2.8.RELEASE/spring-aop/src/main/java/org/springframework/aop/framework/autoproxy/BeanFactoryAdvisorRetrievalHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="78" selection-start-line="78" selection-end-line="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/workspace7-yuan/spring-framework-3.2.8.RELEASE/spring-aop/src/main/java/org/springframework/aop/aspectj/annotation/AspectJAdvisorFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="69" column="18" selection-start-line="69" selection-start-column="18" selection-end-line="69" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/workspace7-yuan/spring-framework-3.2.8.RELEASE/spring-aop/src/main/java/org/springframework/aop/aspectj/autoproxy/AspectJAwareAdvisorAutoProxyCreator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="108" column="13" lean-forward="true" selection-start-line="108" selection-start-column="13" selection-end-line="108" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/workspace7-yuan/spring-framework-3.2.8.RELEASE/spring-aop/src/test/java/org/springframework/aop/aspectj/annotation/AspectJPointcutAdvisorTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="43" column="58" selection-start-line="43" selection-start-column="58" selection-end-line="43" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/workspace7-yuan/spring-framework-3.2.8.RELEASE/spring-aop/src/main/java/org/springframework/aop/aspectj/annotation/AnnotationAwareAspectJAutoProxyCreator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="86" column="58" lean-forward="true" selection-start-line="86" selection-start-column="58" selection-end-line="86" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/workspace7-yuan/spring-framework-3.2.8.RELEASE/spring-aop/src/main/java/org/springframework/aop/aspectj/annotation/InstantiationModelAwarePointcutAdvisorImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2014">
-          <caret line="139" column="49" selection-start-line="139" selection-start-column="49" selection-end-line="139" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/workspace7-yuan/spring-framework-3.2.8.RELEASE/spring-aop/src/main/java/org/springframework/aop/aspectj/annotation/ReflectiveAspectJAdvisorFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2755">
-          <caret line="196" column="50" selection-start-line="196" selection-start-column="50" selection-end-line="196" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/workspace7-yuan/spring-framework-3.2.8.RELEASE/spring-aop/src/main/java/org/springframework/aop/framework/autoproxy/AbstractAdvisorAutoProxyCreator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1786">
-          <caret line="117" column="42" selection-start-line="117" selection-start-column="42" selection-end-line="117" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/workspace7-yuan/spring-framework-3.2.8.RELEASE/spring-aop/src/main/java/org/springframework/aop/framework/adapter/DefaultAdvisorAdapterRegistry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="969">
-          <caret line="73" column="53" selection-start-line="73" selection-start-column="53" selection-end-line="73" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/workspace7-yuan/spring-framework-3.2.8.RELEASE/spring-aop/src/main/java/org/springframework/aop/support/AopUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4066">
-          <caret line="262" column="9" selection-start-line="262" selection-start-column="9" selection-end-line="262" selection-end-column="9" />
-          <folding>
-            <element signature="e#9172#9173#0" expanded="true" />
-            <element signature="e#9223#9224#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/workspace7-yuan/spring-framework-3.2.8.RELEASE/spring-aop/src/main/java/org/springframework/aop/aspectj/annotation/BeanFactoryAspectJAdvisorsBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1577">
-          <caret line="108" column="85" selection-start-line="108" selection-start-column="85" selection-end-line="108" selection-end-column="85" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/workspace7-yuan/spring-framework-3.2.8.RELEASE/spring-aop/src/main/java/org/springframework/aop/framework/CglibAopProxy.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1919">
@@ -1277,23 +1298,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sp02-mvc/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://G:/MyMavenRepository/org/mockito/mockito-all/1.9.5/mockito-all-1.9.5-sources.jar!/org/mockito/Mockito.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
+        <state relative-caret-position="21242">
           <caret line="1118" column="24" selection-start-line="1118" selection-start-column="24" selection-end-line="1118" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Sp-In-Action/P01/src/test/java/knights/BraveKnightTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
+        <state relative-caret-position="114">
           <caret line="7" column="34" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1303,7 +1317,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Sp-In-Action/P01/src/main/resources/knights/knights.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
+        <state relative-caret-position="228">
           <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
         </state>
       </provider>
@@ -1315,27 +1329,295 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="95">
+            <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sp02-mvc/sp0201-mvc01/src/main/java/zc/entity/Bmi.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sp02-mvc/sp0201-mvc01/src/main/java/com.zc/entity/Bmi.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sp02-mvc/sp0201-mvc01/src/main/java/com.zc/controller/BmiController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sp02-mvc/sp0201-mvc01/src/main/java/com.zc/controller/UserValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sp02-mvc/src/main/java/com/zc/controller/T04ModelAttribute.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-95">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sp02-mvc/sp0201-mvc01/src/main/java/com.zc/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sp02-mvc/src/main/java/com/zc/controller/T03RequestMapping.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-570">
+        <state relative-caret-position="-2508">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sp02-mvc/src/main/java/com/zc/controller/T06PathVariable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="16" column="79" selection-start-line="16" selection-start-column="79" selection-end-line="16" selection-end-column="79" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sp02-mvc/src/main/java/com/zc/controller/T07RequestParam.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="22" column="131" selection-start-line="22" selection-start-column="74" selection-end-line="22" selection-end-column="131" />
+        <state relative-caret-position="931">
+          <caret line="58" column="122" selection-start-line="58" selection-start-column="92" selection-end-line="58" selection-end-column="122" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="95">
-            <caret line="5" selection-start-line="5" selection-end-line="5" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/sp02-mvc/sp0201-mvc01/src/test/java/com.zc.test/T01BeanWrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="22" column="6" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sp02-mvc/sp0201-mvc01/src/main/resources/note注解方式springmvc.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sp02-mvc/sp0201-mvc01/src/main/resources/spring-mvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="20" column="52" selection-start-line="20" selection-start-column="52" selection-end-line="20" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sp02-mvc/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="5" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sp02-mvc/sp0201-mvc01/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sp02-mvc/sp0201-mvc01/src/main/java/com.zc/controller/ValidateController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="31" column="38" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://G:/MyMavenRepository/org/apache/tomcat/tomcat-catalina/7.0.82/tomcat-catalina-7.0.82.jar!/org/apache/catalina/connector/CoyoteAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sp02-mvc/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="175" column="21" selection-start-line="167" selection-start-column="8" selection-end-line="175" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sp02-mvc/sp0201-mvc01/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="196" column="42" lean-forward="true" selection-start-line="196" selection-start-column="42" selection-end-line="196" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sp02-mvc/sp0201-mvc01/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sp02-mvc/sp0201-mvc01/web/WEB-INF/hello.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://G:/MyMavenRepository/org/apache/tomcat/tomcat-catalina/7.0.82/tomcat-catalina-7.0.82-sources.jar!/org/apache/catalina/connector/Connector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="306" selection-start-line="306" selection-end-line="306" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://G:/MyMavenRepository/org/apache/tomcat/tomcat-catalina/7.0.82/tomcat-catalina-7.0.82-sources.jar!/org/apache/catalina/core/StandardService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="118" selection-start-line="118" selection-end-line="118" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://G:/MyMavenRepository/org/apache/tomcat/tomcat-catalina/7.0.82/tomcat-catalina-7.0.82-sources.jar!/org/apache/catalina/core/StandardEngineValve.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="115" selection-start-line="115" selection-end-line="115" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://G:/MyMavenRepository/org/apache/tomcat/tomcat-catalina/7.0.82/tomcat-catalina-7.0.82-sources.jar!/org/apache/catalina/valves/AccessLogValve.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="961" selection-start-line="961" selection-end-line="961" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://G:/MyMavenRepository/org/apache/tomcat/tomcat-catalina/7.0.82/tomcat-catalina-7.0.82-sources.jar!/org/apache/catalina/valves/ErrorReportValve.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="102" selection-start-line="102" selection-end-line="102" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://G:/MyMavenRepository/org/apache/tomcat/tomcat-catalina/7.0.82/tomcat-catalina-7.0.82-sources.jar!/org/apache/catalina/core/StandardHostValve.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="168" selection-start-line="168" selection-end-line="168" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://G:/MyMavenRepository/org/apache/tomcat/tomcat-catalina/7.0.82/tomcat-catalina-7.0.82-sources.jar!/org/apache/catalina/valves/ValveBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="155" selection-start-line="155" selection-end-line="155" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://G:/MyMavenRepository/org/apache/tomcat/tomcat-catalina/7.0.82/tomcat-catalina-7.0.82-sources.jar!/org/apache/catalina/authenticator/AuthenticatorBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="505" selection-start-line="505" selection-end-line="505" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://G:/MyMavenRepository/org/apache/tomcat/tomcat-catalina/7.0.82/tomcat-catalina-7.0.82-sources.jar!/org/apache/catalina/core/ContainerBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="799" selection-start-line="799" selection-end-line="799" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://G:/MyMavenRepository/org/apache/tomcat/tomcat-catalina/7.0.82/tomcat-catalina-7.0.82-sources.jar!/org/apache/catalina/core/StandardPipeline.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="475" selection-start-line="475" selection-end-line="475" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://G:/MyMavenRepository/org/apache/tomcat/tomcat-catalina/7.0.82/tomcat-catalina-7.0.82-sources.jar!/org/apache/catalina/core/StandardContextValve.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="109" selection-start-line="109" selection-end-line="109" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://G:/MyMavenRepository/org/apache/tomcat/tomcat-catalina/7.0.82/tomcat-catalina-7.0.82-sources.jar!/org/apache/catalina/core/StandardWrapperValve.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="317" column="31" lean-forward="true" selection-start-line="317" selection-start-column="31" selection-end-line="317" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://G:/MyMavenRepository/org/springframework/spring-webmvc/4.1.5.RELEASE/spring-webmvc-4.1.5.RELEASE-sources.jar!/org/springframework/web/servlet/DispatcherServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="140" column="55" selection-start-line="140" selection-start-column="39" selection-end-line="140" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://G:/MyMavenRepository/javax/servlet/javax.servlet-api/3.0.1/javax.servlet-api-3.0.1-sources.jar!/javax/servlet/GenericServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-387">
+          <caret line="90" column="22" selection-start-line="90" selection-start-column="22" selection-end-line="90" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://G:/MyMavenRepository/org/springframework/spring-webmvc/4.1.5.RELEASE/spring-webmvc-4.1.5.RELEASE-sources.jar!/org/springframework/web/servlet/HttpServletBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="257" lean-forward="true" selection-start-line="257" selection-end-line="257" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://G:/MyMavenRepository/org/springframework/spring-webmvc/4.1.5.RELEASE/spring-webmvc-4.1.5.RELEASE-sources.jar!/org/springframework/web/servlet/FrameworkServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="949" lean-forward="true" selection-start-line="949" selection-end-line="949" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://G:/MyMavenRepository/org/apache/tomcat/tomcat-catalina/7.0.82/tomcat-catalina-7.0.82-sources.jar!/org/apache/catalina/connector/CoyoteAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="59">
+          <caret line="444" column="22" selection-start-line="444" selection-start-column="22" selection-end-line="444" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://G:/MyMavenRepository/javax/servlet/javax.servlet-api/3.0.1/javax.servlet-api-3.0.1-sources.jar!/javax/servlet/http/HttpServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="733" column="7" lean-forward="true" selection-start-line="733" selection-start-column="7" selection-end-line="733" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://G:/MyMavenRepository/org/apache/tomcat/tomcat-catalina/7.0.82/tomcat-catalina-7.0.82-sources.jar!/org/apache/catalina/connector/Request.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="2260" selection-start-line="2260" selection-end-line="2260" />
+          <folding>
+            <element signature="e#17631#17632#0" expanded="true" />
+            <element signature="e#17665#17666#0" expanded="true" />
+            <element signature="e#62700#62701#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://G:/MyMavenRepository/org/apache/tomcat/tomcat-catalina/7.0.82/tomcat-catalina-7.0.82-sources.jar!/org/apache/catalina/connector/RequestFacade.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="748" selection-start-line="748" selection-end-line="748" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://G:/MyMavenRepository/org/apache/tomcat/tomcat-catalina/7.0.82/tomcat-catalina-7.0.82-sources.jar!/org/apache/catalina/servlets/DefaultServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="434" selection-start-line="434" selection-end-line="434" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://G:/MyMavenRepository/org/apache/tomcat/tomcat-catalina/7.0.82/tomcat-catalina-7.0.82-sources.jar!/org/apache/catalina/core/ApplicationFilterChain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="336" lean-forward="true" selection-start-line="336" selection-end-line="336" />
         </state>
       </provider>
     </entry>
@@ -1345,10 +1627,12 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>sp02mvc:war exploded</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.30240175" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -1391,11 +1675,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Web|sp02mvc</last-edited>
+          <last-edited>sp02mvc</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.30240175" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -1415,7 +1700,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: org.springframework:spring-orm:3.2.8.RELEASE</last-edited>
+          <last-edited>Maven: org.springframework:spring-context:4.1.5.RELEASE</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

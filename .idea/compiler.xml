@@ -12,7 +12,7 @@
         <module name="P03" />
         <module name="P04" />
         <module name="sp01base" />
-        <module name="sp02mvc" />
+        <module name="sp0201mvc01" />
         <module name="SpNote" />
       </profile>
     </annotationProcessing>
