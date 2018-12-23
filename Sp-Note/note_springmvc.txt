@@ -1,0 +1,237 @@
+springmvc是用来简化基于mvc架构的web开发框架
+
+一.五大组件
+DispatcherServlet(前端控制器)
+	控制器,相当于MainServlet
+	
+HandlerMapping
+请求地址和model(Controller)的对应关系
+
+Controller(处理器)
+处理业务逻辑
+
+ModelAndView
+封装处理结果(包含视图名)	
+
+ViewResolver(视图解析器)
+负责将视图名解析成真正的视图对象,如jsp
+
+二.执行流程
+1.DispatcherServlet收到请求后,依据HandlerMapping配置,调用相应的Controller来处理
+2.Controller将处理结果封装成ModelAndView对象,返回给DispatcherServlet
+3.DispatcherServlet依据ViewResolver的解析,调用相应的视图对象(如某个jsp)生成相应的页面
+
+三.使用xml配置编程
+1.web.xml中配置DispatcherServlet,init-param加载spring-mvc配置文件,tomcat启动时创建
+<servlet>
+  	<servlet-name>springmvc</servlet-name>
+  	<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+  	<init-param>
+  		<param-name>contextConfigLocation</param-name>
+  		<param-value>classpath:spring-mvc.xml</param-value>
+  	</init-param>
+  	<load-on-startup>1</load-on-startup>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>springmvc</servlet-name>
+  	<url-pattern>*.do</url-pattern>
+  </servlet-mapping>
+
+2.spring-mvc.xml中配置HandlerMapping,将/hello.do请求配置由helloController处理
+<bean class="org.springframework.web.servlet.handler.SimpleUrlHandlerMapping">
+<!-- SimpleUrlHandlerMapping中有mappings属性,setter注入 -->
+	<property name="mappings">
+		<props>
+			<prop key="/hello.do">helloController</prop>
+		</props>
+	</property>
+</bean>
+
+3.编写Controller类并配置
+public class HelloController implements Controller{
+	public ModelAndView handleRequest(HttpServletRequest request, HttpServletResponse response) throws Exception {
+		//返回一个ModelAndView对象
+		return new ModelAndView("hello");
+	}
+}
+
+spring-mvc.xml中
+<bean id="helloController" class="com.zc.controller.HelloController"></bean>
+
+4.spring-mvc.xml中配置ViewResolver
+<!-- 配置视图解析器 -->
+<!-- /WEB-INF/	hello	.jsp满足 -->
+<bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+	<!-- 前缀 -->
+	<property name="prefix" value="/WEB-INF/"></property>
+	<!-- 后缀 -->
+	<property name="suffix" value=".jsp"></property>
+</bean>
+
+四.使用注解的方式编程
+1.web.xml中配置DispatcherServlet
+2.spring-mvc.xml中开启mvc注解扫描
+<context:component-scan base-package="com.zc"></context:component-scan>
+springmvc注解扫描
+<mvc:annotation-driven></mvc:annotation-driven>
+
+3.编写Controller类
+ * 1.不用实现Controller接口
+ * 2.可以添加多个方法
+ * 3.方法名不做要求,返回值类型可以是ModelAndView,也可以为字符串
+ * 4.在类前添加@Controller注解
+ * 5.使用@RequestMapping来告诉DispatcherServlet,请求路径与处理器的对应关系
+则spring-mvc.xml中的HandlerMapping(本类中使用@RequestMapping配置)和Controller处理器(本类加了@Controller注解)无需再配置
+@Controller
+@RequestMapping("/common")
+//http://localhost:8080/ZC11Springmvc/common/hello.do
+public class HelloController {
+	@RequestMapping("/hello.do")
+	public String hello(){
+		System.out.println("HelloController类中的hello方法");
+		return "hello";
+	}
+	@RequestMapping("/hello2.do")
+	public String hello2(){
+		System.out.println("HelloController类中的hello2方法");
+		return "hello";
+	}
+}
+4.spring-mvc.xml中配置ViewResolver
+
+*******************************************
+day04
+在Controller中
+一.读取请求参数
+1.通过HttpServletRequest对象获取
+@RequestMapping("/login.do")
+public String checkLogin(HttpServletRequest request){//使用request读取请求参数值
+	String adminCode=request.getParameter("adminCode");
+	return "index"; 
+}
+2.通过@RequestParam注解
+@RequestMapping("/login2.do")
+public String checkLogin2(String adminCode,@RequestParam("pwd")String pwdpp){//参数名和传入的参数名相同
+	System.out.println(adminCode+" "+pwdpp);
+	return "index";
+}
+3.封装成一个javabean
+@RequestMapping("/login3.do")
+public String checkLogin3(Person person){
+}
+
+二.向页面传值
+1.使用request对象
+@RequestMapping("/login4.do")
+public String checkLogin4(AdminParam ap,HttpServletRequest request){
+	request.setAttribute("adminCode", ap.getAdminCode());
+	return "index";
+}
+2.使用session对象
+@RequestMapping("/login5.do")
+public String checkLogin5(AdminParam ap,HttpSession session){
+	session.setAttribute("adminCode", ap.getAdminCode());
+	return "index";
+}
+3.通过ModelMap对象,会将ModelMap中的参数绑定到request对象上,相当于request.setAttribute
+@RequestMapping("/login6.do")
+public String checkLogin6(AdminParam ap,ModelMap mm){
+	mm.addAttribute("adminCode",ap.getAdminCode());
+	return "index";
+}
+4.通过ModelAndView对象,将处理结果添加到ModelAndView对象里
+@RequestMapping("/login7.do")
+public ModelAndView checkLogin7(AdminParam ap){
+	Map<String, String> data = new HashMap<String,String>();
+	data.put("adminCode", ap.getAdminCode());
+	return new ModelAndView("index",data);
+}
+
+三.重定向
+1.
+@RequestMapping("/login8.do")
+public String checkLogin8(){
+	return "redirect:toIndex.do";
+}
+2.@RequestMapping("/login9.do")
+public ModelAndView checkLogin9(){
+	RedirectView rv=new RedirectView("toIndex.do");
+	return new ModelAndView(rv);
+}
+
+*************************************************
+day05
+一.拦截器
+spring定义的一种特殊的组件,前端控制器接收到请求后,会先调用拦截器的方法,然后调用处理器
+二.编写拦截器
+1.实现HandlerInterceptor接口
+class SomeInterceptor implements HandlerInterceptor
+2.重写
+preHandler(): 前端控制器收到请求之后，会先调用 拦截器的preHandle方法，如果该方法的返回值为true,
+表示继续向后调用，如果返回值为false,表示请求处理完毕， 不会向下执行。
+postHandler():处理器方法已经执行完毕，准备将处理 结果(ModelAndView对象）返回给前端控制器之前执行 该方法。
+可以在该方法里面，修改处理结果。
+afterCompletion():最后执行的方法,可处理异常。
+3.spring-mvc.xml中配置拦截器
+<mvc:interceptors>
+	<mvc:interceptor>
+		<!-- 指定需要拦截的路径 -->
+		<!-- 只拦截该路径下的请求,不包括子路径 -->
+		<!-- <mvc:mapping path="/*" /> -->
+		<!-- 会拦截该路径及其子路径下的所有请求 -->
+		<mvc:mapping path="/**" />
+		<!-- 指定排除在外的路径 -->
+		<!-- <mvc:exclude-mapping path="/" /> -->
+		<bean class="com.zc.interceptor.SomeInterceptor"></bean>
+	</mvc:interceptor>
+</mvc:interceptors>
+
+************************************************
+day06
+一.springmvc中异常处理
+1.方式一:简单异常处理器,只能将异常转向错误页面
+spring-mvc.xml中配置SimpleMappingExceptionResolver
+<bean class="org.springframework.web.servlet.handler.SimpleMappingExceptionResolver">
+	<property name="exceptionMappings">
+		<props>
+			<prop key="java.lang.Exception">error</prop>
+		</props>
+	</property>
+</bean>
+
+2.方式二:
+使用注解方式处理异常,Controller类中的某个方法上加上@ExceptionHandler代表该方法为异常处理方法,
+用于处理其他方法抛出的异常
+ex对象为其他方法抛出的异常对象
+@ExceptionHandler
+public String handler(Exception ex,HttpServletRequest request){
+	if(ex instanceof NumberFormatException){
+		request.setAttribute("errorMsg","亲,请输入正确的数字");
+		return "error";
+	}else if(ex instanceof StringIndexOutOfBoundsException){
+		request.setAttribute("errorMsg","下标越界");
+		return "error";
+	}else{
+		return "error";
+	}
+}
+
+二.springmvc表单中文乱码解决
+1.乱码产生原因.提交表单时,默认会按照页面的显示编码的格式发送(即contentType="text/html;charset=utf-8",
+此句会在响应时在消息头中添加),而服务器端默认使用iso-8859-1来解码
+2.springmvc中中文乱码解决
+ <filter>
+  	<filter-name>encodingFilter</filter-name>
+  	<filter-class>org.springframework.web.filter.CharacterEncodingFilter</filter-class>
+  	<init-param>
+  		<param-name>encoding</param-name>
+  		<param-value>UTF-8</param-value>
+  	</init-param>
+  </filter>
+  <filter-mapping>
+  	<filter-name>encodingFilter</filter-name>
+  	<url-pattern>/*</url-pattern>
+  </filter-mapping>
+
+使用注解的方式配置springmvc
+方法名不作要求

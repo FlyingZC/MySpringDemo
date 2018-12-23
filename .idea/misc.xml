@@ -11,6 +11,10 @@
     </session>
   </component>
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/sp02-mvc/mvc00-xml" />
+    <file type="web" url="file://$PROJECT_DIR$/sp02-mvc/mvc01" />
+    <file type="web" url="file://$PROJECT_DIR$/sp02-mvc/mvc02" />
+    <file type="web" url="file://$PROJECT_DIR$/sp02-mvc/mvc03-interceptor" />
     <file type="web" url="file://$PROJECT_DIR$/sp02-mvc/sp0201-mvc01" />
   </component>
   <component name="MavenProjectsManager">
@@ -22,8 +26,5 @@
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_7" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
-  </component>
-  <component name="ThriftCompiler">
-    <compilers />
   </component>
 </project>

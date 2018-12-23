@@ -4,7 +4,7 @@
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
-          <element id="module-output" name="sp0201mvc01" />
+          <element id="module-output" name="mvc01" />
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="Maven: org.springframework:spring-aop:4.1.5.RELEASE" />
@@ -76,7 +76,7 @@
       <element id="directory" name="META-INF">
         <element id="file-copy" path="$PROJECT_DIR$/sp02-mvc/sp0201-mvc01/target/sp0201-mvc01-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
       </element>
-      <element id="javaee-facet-resources" facet="sp0201mvc01/web/Web" />
+      <element id="javaee-facet-resources" facet="mvc01/web/Web" />
     </root>
   </artifact>
 </component>

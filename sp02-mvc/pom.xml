@@ -9,8 +9,12 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <packaging>pom</packaging>
+
     <modules>
-        <module>sp0201-mvc01</module>
+        <module>mvc01</module>
+        <module>mvc02</module>
+        <module>mvc00-xml</module>
+        <module>mvc03-interceptor</module>
     </modules>
     <artifactId>sp02-mvc</artifactId>
 
