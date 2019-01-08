@@ -1,0 +1,16 @@
+###模块sp01-base
+com.zc.web下自定义MyServletContextListener
+在index.jsp中访问 放入MyServletContextListener的属性
+
+在web.xml中点 ContextloaderListener查看层次结构
+ContextLoaderListener:(spring中)作用 启动web容器时,自动装配ContextParam中配置的 配置文件信息
+
+ServletContextListener:(servlet中)可以在为客户端请求提供服务之前向ServletContext中添加任意对象.
+这个对象在ServletContext启动的时候被初始化,然后在ServletContext整个运行期间都是可见的.
+核心逻辑:初始化WebApplicationContext实例 并存放至ServletContext中
+系统启动时会调用ServletContextListener实现类的contextInitialized方法(该方法中实现初始化逻辑)
+需要在web.xml中配置该实现类
+
+ServletContext:(servlet中)每个Web应用都有一个ServletContext与之关联.ServletContext对象在
+应用启动时被创建,在应用关闭时被销毁.ServletContext在全局范围内有效,类似于应用中的一个全局变量
+

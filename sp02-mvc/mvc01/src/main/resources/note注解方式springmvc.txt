@@ -31,9 +31,6 @@ spring定义的一种特殊的组件,前端控制器在收到请求后,先调用
 preHandle():(处理之前)  前端控制器收到请求之后,先调用拦截器的preHandle方法,若该方法返回true则请求继续向后调用.若返回值为false,表示请求完毕
 postHandle():(处理之后) 处理器方法已经执行完毕(Controller中的方法),准备将处理结果(ModelAndView)对象返回给前端控制器之前执行postHandle()方法,可以在该方法中修改处理结果
 afterCompletion():(完成之后) 最后执行的方法,注意:只有当preHandle方法返回值为true,该方法才会执行
-	
-
-
 
 注:过滤器是servlet规范中定义的组件
 拦截器是spring中的

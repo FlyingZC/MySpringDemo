@@ -41,7 +41,7 @@ public class T02InitBinderController {
      *
      * 页面某些数据类型是Date、Integer、Double等的数据要绑定到控制器的实体,
      * 或者控制器需要接受这些数据,如果这类数据类型不做处理的话将无法绑定.
-     * 可以使用注解@InitBinder来解决这些问题,这样SpingMVC在绑定表单之前,都会先注册这些编辑器.
+     * 可以使用注解@InitBinder来解决这些问题,这样SpringMVC在绑定表单之前,都会先注册这些编辑器.
      */
     @InitBinder
     protected void myInitBinder(WebDataBinder binder) {

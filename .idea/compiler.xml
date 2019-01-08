@@ -11,6 +11,7 @@
         <module name="mvc01" />
         <module name="mvc02" />
         <module name="mvc03-interceptor" />
+        <module name="mvc04-quartz" />
         <module name="P01" />
         <module name="P02" />
         <module name="P03" />

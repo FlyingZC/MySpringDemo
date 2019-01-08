@@ -19,8 +19,8 @@ public class T03RequestMapping {
      * method:  指定请求的method类型, GET、POST、PUT、DELETE等
      * <p>
      * 2、consumes,produces
-     * consumes:  指定处理请求的提交内容类型（Content-Type）,例如 application/json, text/html;
-     * produces:  指定返回的内容类型,仅当request请求头中的(Accept)类型中包含该指定类型才返回;
+     * consumes:  (消费)指定处理请求的提交内容类型（Content-Type）,例如 application/json, text/html;
+     * produces:  (生产)指定返回的内容类型,仅当request请求头中的(Accept)类型中包含该指定类型才返回;
      * <p>
      * 3、params,headers
      * params:  指定request中必须包含某些参数值时,才让该方法处理.
@@ -36,7 +36,7 @@ public class T03RequestMapping {
     }
 
     /**
-     * 404示例. 与Hello2区别.缺少@ResponseBody注解.可以走到这个方法里,可能没有给客户端返回数据? 添加ResponseBody后可在请求的response中看到返回数据 NO. 应该是找不到该页面,看debug日志YES
+     * 404示例. 与Hello2区别.缺少@ResponseBody注解.可以走到这个方法里,可能没有给客户端返回数据? 添加ResponseBody后可在请求的response中看到返回数据 NO. 应该是找不到该页面(不加responseBody表示返回视图名),看debug日志YES
      *
      * @return
      */
@@ -70,7 +70,7 @@ public class T03RequestMapping {
 
 
     // 四.@RequestMapping配合@RequestParam
-    // @RequestMapping 注解配合 @RequestMapping 一起使用,可以将请求的参数同处理方法的参数绑定在一起.
+    // @RequestMapping 注解配合 @RequestParam 一起使用,可以将请求的参数同处理方法的参数绑定在一起.
     // @RequestParam 注解使用的时候可以有一个值,也可以没有值.这个值指定了需要被映射到处理方法参数的请求参数
     @RequestMapping(value = "/query1")
     @ResponseBody
