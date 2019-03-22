@@ -6,11 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="edb91961-16fd-40a4-9bd8-9f2e5437159a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sp-Note/note_spring-in-action.md" beforeDir="false" afterPath="$PROJECT_DIR$/Sp-Note/note_spring-in-action.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sp02-mvc/mvc01/src/main/java/com/zc/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/sp02-mvc/mvc01/src/main/java/com/zc/controller/HelloController.java" afterDir="false" />
-    </list>
+    <list default="true" id="edb91961-16fd-40a4-9bd8-9f2e5437159a" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/sp01-base/target/" />
@@ -38,44 +34,7 @@
     <favorites_list name="MySpringDemo" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="BmiController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sp02-mvc/mvc01/src/main/java/com/zc/controller/BmiController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-24">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HelloController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sp02-mvc/mvc01/src/main/java/com/zc/controller/HelloController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="39" column="44" selection-start-line="39" selection-start-column="44" selection-end-line="39" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FrameworkServlet.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../spring-webmvc-source/src/main/java/org/springframework/web/servlet/FrameworkServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="958" column="38" lean-forward="true" selection-start-line="958" selection-start-column="38" selection-end-line="958" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LocaleContextHolder.java" pinned="false" current-in-tab="false">
-        <entry file="jar://G:/MyMavenRepository/org/springframework/spring-context/4.1.5.RELEASE/spring-context-4.1.5.RELEASE-sources.jar!/org/springframework/context/i18n/LocaleContextHolder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="105" column="32" selection-start-line="105" selection-start-column="32" selection-end-line="105" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -242,8 +201,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -340,7 +298,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -858,7 +817,16 @@
       <workItem from="1546960968586" duration="85000" />
       <workItem from="1547467444089" duration="1324000" />
       <workItem from="1551008571727" duration="2579000" />
+      <workItem from="1553261973342" duration="837000" />
     </task>
+    <task id="LOCAL-00001" summary="sync">
+      <created>1553262079621</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1553262079622</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -894,11 +862,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="133004000" />
+    <option name="totallyTimeSpent" value="133841000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50292826" side_tool="true" weight="0.33222038" />
@@ -913,35 +880,34 @@
       <window_info id="UI Designer" order="5" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49707174" weight="0.4318182" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="14" sideWeight="0.4978038" weight="0.28321677" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info id="Image Layers" order="7" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="13" visible="true" weight="0.6800699" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49853587" weight="0.46328673" />
       <window_info anchor="bottom" id="Spring" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49916527" weight="0.2549168" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49916527" visible="true" weight="0.2549168" />
       <window_info anchor="right" id="Bean Validation" order="9" />
       <window_info id="Web" order="3" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info id="Favorites" order="6" sideWeight="0.5008347" side_tool="true" weight="0.19692533" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="14" sideWeight="0.4978038" weight="0.28321677" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.21669106" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
     <layout-to-restore>
       <window_info anchor="bottom" id="Application Servers" order="11" weight="0.21256039" />
       <window_info id="Designer" order="2" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49853587" visible="true" weight="0.46328673" />
       <window_info anchor="bottom" id="Spring" order="8" />
       <window_info id="Image Layers" order="7" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49853587" visible="true" weight="0.46328673" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="5" />
@@ -949,6 +915,7 @@
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info id="Capture Tool" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50292826" side_tool="true" weight="0.33222038" />
       <window_info anchor="bottom" id="Messages" order="14" sideWeight="0.4978038" weight="0.28321677" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -957,7 +924,6 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="13" />
       <window_info anchor="right" id="Maven Projects" order="7" weight="0.1727672" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49916527" visible="true" weight="0.2549168" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -966,15 +932,46 @@
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49707174" weight="0.4318182" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Bean Validation" order="9" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49707174" weight="0.4318182" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="sync" />
+    <option name="LAST_COMMIT_MESSAGE" value="sync" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1848,29 +1845,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sp02-mvc/mvc01/src/main/java/com/zc/controller/BmiController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-24">
+        <state relative-caret-position="120">
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sp02-mvc/mvc01/src/main/java/com/zc/controller/HelloController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
+        <state relative-caret-position="624">
           <caret line="39" column="44" selection-start-line="39" selection-start-column="44" selection-end-line="39" selection-end-column="44" />
         </state>
       </provider>
     </entry>
     <entry file="jar://G:/MyMavenRepository/org/springframework/spring-context/4.1.5.RELEASE/spring-context-4.1.5.RELEASE-sources.jar!/org/springframework/context/i18n/LocaleContextHolder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
+        <state relative-caret-position="2040">
           <caret line="105" column="32" selection-start-line="105" selection-start-column="32" selection-end-line="105" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../spring-webmvc-source/src/main/java/org/springframework/web/servlet/FrameworkServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="958" column="38" lean-forward="true" selection-start-line="958" selection-start-column="38" selection-end-line="958" selection-end-column="38" />
+        <state relative-caret-position="408">
+          <caret line="957" column="64" lean-forward="true" selection-start-line="957" selection-start-column="64" selection-end-line="957" selection-end-column="64" />
         </state>
       </provider>
     </entry>
