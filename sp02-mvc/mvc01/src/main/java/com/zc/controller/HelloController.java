@@ -37,7 +37,7 @@ public class HelloController {
 	
 	@RequestMapping("/hello2.do")
 	public String hello2(){
-		System.out.println("HelloController类中的hello2方法");
+		System.out.println("FrameworkServletHelloController类中的hello2方法");
 		return "hello";
 	}
 	
