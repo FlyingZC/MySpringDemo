@@ -20,24 +20,10 @@
     <artifactId>sp02-mvc</artifactId>
 
     <properties>
-        <!-- 设置项目编码编码 -->
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <!-- spring版本号 3.2.5company1, 3.2.8book, 4.1.5src, 4.0.2blog, 4.0.company2, 4.3.5 -->
         <spring.version>4.1.5.RELEASE</spring.version>
-        <!-- mybatis版本号 -->
-        <mybatis.version>3.4.1</mybatis.version>
     </properties>
 
     <dependencies>
-
-        <!-- java ee -->
-        <!--<dependency>-->
-        <!--<groupId>javax</groupId>-->
-        <!--<artifactId>javaee-api</artifactId>-->
-        <!--<version>7.0</version>-->
-        <!--</dependency>-->
-
         <!-- 实现slf4j接口并整合 -->
         <dependency>
             <groupId>ch.qos.logback</groupId>
@@ -52,7 +38,6 @@
             <version>2.8.7</version>
         </dependency>
 
-
         <!-- 数据库 -->
         <dependency>
             <groupId>mysql</groupId>
@@ -66,13 +51,6 @@
             <groupId>com.mchange</groupId>
             <artifactId>c3p0</artifactId>
             <version>0.9.5.2</version>
-        </dependency>
-
-        <!-- MyBatis -->
-        <dependency>
-            <groupId>org.mybatis</groupId>
-            <artifactId>mybatis</artifactId>
-            <version>${mybatis.version}</version>
         </dependency>
 
         <!-- mybatis/spring整合包 -->
@@ -124,12 +102,13 @@
             <artifactId>spring-test</artifactId>
             <version>${spring.version}</version>
         </dependency>
+
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-context-support</artifactId>
             <version>${spring.version}</version>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api -->
+
         <dependency>
             <groupId>javax.servlet</groupId>
             <artifactId>javax.servlet-api</artifactId>
@@ -137,8 +116,6 @@
             <scope>provided</scope>
         </dependency>
 
-
-        <!-- https://mvnrepository.com/artifact/javax.servlet.jsp/javax.servlet.jsp-api -->
         <dependency>
             <groupId>javax.servlet.jsp</groupId>
             <artifactId>javax.servlet.jsp-api</artifactId>
@@ -159,7 +136,6 @@
             <version>19.0</version>
         </dependency>
 
-        <!-- https://mvnrepository.com/artifact/org.hamcrest/hamcrest-core -->
         <dependency>
             <groupId>org.hamcrest</groupId>
             <artifactId>hamcrest-core</artifactId>
@@ -172,15 +148,7 @@
             <groupId>org.apache.tomcat</groupId>
             <artifactId>tomcat-catalina</artifactId>
             <version>7.0.82</version>
-            <!--<version>7.0.90</version>-->
-
             <scope>provided</scope>
-        </dependency>
-
-        <dependency>
-            <groupId>log4j</groupId>
-            <artifactId>log4j</artifactId>
-            <version>1.2.17</version>
         </dependency>
 
         <dependency>
