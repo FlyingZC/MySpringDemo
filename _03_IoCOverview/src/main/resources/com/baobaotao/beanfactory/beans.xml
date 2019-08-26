@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns="http://www.springframework.org/schema/beans" xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+    <!--<bean id="car1" class="com.baobaotao.reflect.Car" p:brand="红旗CA72" p:color="黑色" p:maxSpeed="200"/>-->
+
+    <!--<bean id="car" class="com.baobaotao.Car"-->
+    <!--scope="singleton"-->
+    <!--init-method="myInit"-->
+    <!--destroy-method="myDestroy"-->
+    <!--p:brand="红旗CA72"-->
+    <!--p:maxSpeed="200"/>-->
+    <context:component-scan base-package="com.baobaotao"/>
+
+    <bean id="car" class="com.baobaotao.Car"
+          scope="singleton"
+          init-method="myInit"
+          destroy-method="myDestroy"
+          p:brand="红旗CA72"
+          p:maxSpeed="200"/>
+
+    <bean id="myBeanPostProcessor" class="com.baobaotao.beanfactory.MyBeanPostProcessor"/>
+
+    <bean id="myBeanFactoryPostProcessor" class="com.baobaotao.context.MyBeanFactoryPostProcessor"/>
+
+    <bean id="AnnoBeansAware" class="com.baobaotao.context.anno.AnnoBeansAware"/>
+
+</beans>

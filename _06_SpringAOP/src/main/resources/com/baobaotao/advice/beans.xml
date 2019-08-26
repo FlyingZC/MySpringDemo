@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!--目标类-->
+    <bean id="target" class="com.baobaotao.advice.NaiveWaiter"/>
+
+    <!--前置增强-->
+    <bean id="greetingBefore" class="com.baobaotao.advice.GreetingBeforeAdvice"/>
+
+    <!--后置增强-->
+    <bean id="greetingAfter" class="com.baobaotao.advice.GreetingAfterAdvice"/>
+
+    <!--环绕增强-->
+    <bean id="greetingAround" class="com.baobaotao.advice.GreetingInterceptor"/>
+
+    <!--代理工厂--><!--可配置多个 intercetpor 和 advice-->
+    <bean id="waiter" class="org.springframework.aop.framework.ProxyFactoryBean"
+          p:proxyInterfaces="com.baobaotao.advice.Waiter"
+          p:interceptorNames="greetingBefore,greetingAfter,greetingAround"
+          p:target-ref="target"/>
+
+    <!--异常抛出增强  -->
+    <bean id="forumServiceTarget" class="com.baobaotao.advice.ForumService"/>
+    <bean id="transactionManager" class="com.baobaotao.advice.TransactionManager"/>
+    <bean id="forumService" class="org.springframework.aop.framework.ProxyFactoryBean"
+          p:interceptorNames="transactionManager"
+          p:target-ref="forumServiceTarget"
+          p:proxyTargetClass="true"/>
+</beans>

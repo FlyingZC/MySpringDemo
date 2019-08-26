@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+       <!--
+       3.用于自动注册属性编辑器
+       CustomEditorConfigurer实现BeanFactoryPostProcessor接口，
+       因此是一个Bean工厂后处理器。我们知道Bean工厂后处理器在Spring容器加载配置文件并生成BeanDefinition半成品后就会被自动执行。
+       因此CustomEditorConfigurer有容器启动时有机会注入自定义的属性编辑器
+       -->
+       <bean class="org.springframework.beans.factory.config.CustomEditorConfigurer">
+              <property name="customEditors">
+                     <map>
+                            <entry key="com.baobaotao.editor.Car">
+                                   <bean class="com.baobaotao.editor.CustomCarEditor"/>
+                            </entry>
+                     </map>
+              </property>
+       </bean>
+       <bean id="boss" class="com.baobaotao.editor.Boss">
+              <property name="name" value="John"/>
+              <!--4.这个属性实际上是Car类型的,此处传string值,会通过上面配置的CustomCarEditor解析value值注入到car属性中-->
+              <property name="car" value="红旗CA72,200,20000.00"/>
+       </bean>
+</beans>

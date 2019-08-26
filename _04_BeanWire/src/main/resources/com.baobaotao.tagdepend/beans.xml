@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+       <!-- 父子<bean> -->
+        <!-- 父bean,abstract用于配置不创建该bean -->
+       <bean id="abstractCar" class="com.baobaotao.tagdepend.Car"
+               p:brand="红旗CA72" p:price="2000.00" p:color="黑色" abstract="true"/>
+
+       <bean id="car3" parent="abstractCar">
+              <property name="color" value="红色"/>
+       </bean>
+       <bean id="car4" parent="abstractCar">
+              <property name="color" value="白色"/>
+       </bean>
+
+       <!-- <bean>的依赖 depends-on -->
+        <!-- CacheManager依赖于SystemSettings，而SystemSettings的值由SysInit负责初始化。
+        虽然CacheManager不直接依赖SysInit，但从逻辑上看，CacheManager希望在SysInit加载并完成系统参数设置后再启动，以避免调用不到真实的系统参数值。-->
+       <bean id="sysInit" class="com.baobaotao.tagdepend.SysInit"/>
+       <bean id="cacheManager" class="com.baobaotao.tagdepend.CacheManager" depends-on="sysInit"/>
+
+       <!-- <bean>引用 -->
+       <bean id="car" class="com.baobaotao.tagdepend.Car"/>
+       <bean id="boss" class="com.baobaotao.tagdepend.Boss">
+              <property name="cardId">
+                    <!-- 通过<idref>引用另一个<bean>的名字。在容器启动时，Spring负责检查引用关系的正确性，这样我们就可以提前发现错误 -->
+                     <idref bean="car"/>
+              </property>
+       </bean>
+</beans>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/aop
+       http://www.springframework.org/schema/aop/spring-aop.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <context:component-scan base-package="com.javadoop,com.zc"/>
+
+    <bean id="userService" class="com.zc.springaoplearning.service.imple.UserServiceImpl"/>
+    <bean id="orderService" class="com.zc.springaoplearning.service.imple.OrderServiceImpl"/>
+
+    <!--开启 @AspectJ 配置-->
+    <!--一旦开启这个配置，那么所有使用 @Aspect 注解的 bean 都会被 Spring 当做用来实现 AOP 的配置类-->
+    <aop:aspectj-autoproxy/>
+
+    <!--@Aspect 注解要作用在 bean 上面-->
+    <bean id="logArgsAspect" class="com.zc.springaoplearning.aop_spring_2_aspectj.LogArgsAspect">
+        <!--如果需要配置参数，和普通的 bean 一样操作-->
+        <property name="trace" value="true"/>
+    </bean>
+
+    <bean class="com.zc.springaoplearning.aop_spring_2_aspectj.LogResultAspect">
+        <property name="trace" value="true"/>
+    </bean>
+
+</beans>
