@@ -20,7 +20,7 @@
     <artifactId>sp02-mvc</artifactId>
 
     <properties>
-        <spring.version>4.1.5.RELEASE</spring.version>
+        <spring.version>5.3.19</spring.version>
     </properties>
 
     <dependencies>
